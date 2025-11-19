@@ -25,7 +25,8 @@ A complete 30-day journey through system design, from philosophical thinking to 
 
 - [Traditional Chinese](./first-principle/zh-TW/index.md) - Completed ✓
 - [English](./first-principle/en-US/index.md) - Completed ✓
-- [Japanese](./first-principle/ja-JP/index.md) - Coming Soon
+- [Japanese](./first-principle/ja-JP/index.md) - Completed ✓
+- [Español (Spanish)](./first-principle/es/index.md) - Coming Soon
 
 ---
 
@@ -128,8 +129,10 @@ If you find any issues or have suggestions for improvement, feel free to:
 **語言支援 | Available Languages:**
 
 - [繁體中文 (Traditional Chinese)](./first-principle/zh-TW/index.md) - 已完成 ✓
-- [English](./first-principle/en-US/index.md) - 敬請期待
-- [日本語 (Japanese)](./first-principle/ja-JP/index.md) - 敬請期待
+- [English](./first-principle/en-US/index.md) - 已完成 ✓
+- [日本語 (Japanese)](./first-principle/ja-JP/index.md) - 已完成 ✓
+- [Español (Spanish)](./first-principle/es/index.md) - 即將推出
+
 
 ---
 
@@ -230,7 +233,8 @@ If you find any issues or have suggestions for improvement, feel free to:
 
 - [繁体字中国語 (Traditional Chinese)](./first-principle/zh-TW/index.md) -完了 ✓
 - [英語 (English)](./first-principle/en-US/index.md) - 完了 ✓
-- [日本語 (Japanese)](./first-principle/ja-JP/index.md) -近日公開
+- [日本語 (Japanese)](./first-principle/ja-JP/index.md) -完了 ✓
+- [スペイン語 (Español)](./first-principle/es/index.md) - 近日公開
 
 ---
 

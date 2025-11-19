@@ -6,7 +6,10 @@
       "Bash(for file in book/first-principle/zh-TW/*.md)",
       "Bash(head:*)",
       "Bash(done)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(wc:*)",
+      "Bash(nul)",
+      "Bash(test:*)"
     ],
     "deny": [],
     "ask": []

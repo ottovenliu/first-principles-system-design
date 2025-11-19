@@ -12,6 +12,15 @@ This series will guide you through the fundamental principles of system design, 
 
 ---
 
+## Available Languages | 語言支援
+
+- [English](./en-US/index.md) - Completed ✓
+- [繁體中文 (Traditional Chinese)](./zh-TW/index.md) - Completed ✓
+- [日本語 (Japanese)](./ja/index.md) - Completed ✓
+- [Español (Spanish)](./es/index.md) - Coming Soon
+
+---
+
 ## 30-Day Learning Journey
 
 - [Day 1 | Series Introduction and Guide: Building a Deliverable System Design from Scratch - Using AWS as an Example](./en/ironMan.draft.d1-0.md)
@@ -53,6 +62,15 @@ This series will guide you through the fundamental principles of system design, 
 > 掌握系統設計的 30 天學習之旅。
 
 本系列將引導您從核心哲學到實用的生產級實踐，深入探討系統設計的基本原則。
+
+---
+
+## 語言支援 | Available Languages
+
+- [繁體中文 (Traditional Chinese)](./zh-TW/index.md) - 已完成 ✓
+- [English](./en-US/index.md) - 已完成 ✓
+- [日本語 (Japanese)](./ja/index.md) - 已完成 ✓
+- [Español (Spanish)](./es/index.md) - 即將推出
 
 ---
 
@@ -103,6 +121,15 @@ This series will guide you through the fundamental principles of system design, 
 > システム設計をマスターするための30日間の学習の旅。
 
 このシリーズでは、中心的な哲学から実用的な本番レベルの実装まで、システム設計の基本原則を深く探求します。
+
+---
+
+## 対応言語 | Available Languages
+
+- [日本語 (Japanese)](./ja/index.md) - 完了 ✓
+- [繁体字中国語 (Traditional Chinese)](./zh-TW/index.md) - 完了 ✓
+- [英語 (English)](./en-US/index.md) - 完了 ✓
+- [スペイン語 (Español)](./es/index.md) - 近日公開
 
 ---
 

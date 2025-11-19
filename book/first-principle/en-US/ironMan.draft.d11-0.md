@@ -498,7 +498,7 @@ We ask them: "Where is *Night Flight*?" They'll tell us directly: "On shelf A-7.
 They'll look perplexed, because they only record the final state of books—all the changes in between have been lost.
 
 ```
-//TODO: "Night Flight" is a book I love dearly. I highly recommend it :))
+ "Night Flight" is a book I love dearly. I highly recommend it :))
 ```
 
 **Core Concept:**
