@@ -532,8 +532,10 @@
 
 ## 其他語言版本
 
-- [English (英文版)](../en-US/index.md) - 籌備中
-- [日本語 (日文版)](../ja-JP/index.md) - 籌備中
+- [English (英文版)](../en-US/index.md) - 已完成 ✓
+- [日本語 (日文版)](../ja/index.md) - 已完成 ✓
+- [Español (Spanish)](../es/index.md) - 已完成 ✓
+- [繁體中文 (Traditional Chinese)](../zh-TW/index.md) - 已完成 ✓
 
 ---
 

@@ -532,8 +532,10 @@ Este viaje de aprendizaje de 30 días está dividido en **6 fases principales**,
 
 ## Otras Versiones en Idiomas
 
-- [English (inglés)](../en-US/index.md) - En preparación
-- [日本語 (japonés)](../ja-JP/index.md) - En preparación
+- [繁體中文 (chino tradicional)](../zh-TW/index.md) - Completado ✓
+- [English (inglés)](../en-US/index.md) - Completado ✓
+- [日本語 (japonés)](../ja/index.md) - Completado ✓
+- [Español (español)](../es/index.md) - Completado ✓
 
 ---
 

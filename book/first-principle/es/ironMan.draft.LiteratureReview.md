@@ -1,803 +1,803 @@
-The following is the learning a.k.a review roadmap I designed during the AI explosion in Q3 2024. It was also when GPT became smarter, and I was constantly using AI tools to adjust and refine my skill tree.
+A continuación se muestra la hoja de ruta de aprendizaje, también conocida como revisión, que diseñé durante la explosión de la IA en el tercer trimestre de 2024. También fue cuando GPT se volvió más inteligente, y yo estaba constantemente utilizando herramientas de IA para ajustar y perfeccionar mi árbol de habilidades.
 
-I have received support from many seniors in various places, and there are too many people to thank. I will gradually add acknowledgments after confirming with the individuals involved. Of course, I also need to thank god, haha!
+He recibido apoyo de muchos veteranos en diversos lugares, y hay demasiada gente a la que agradecer. Poco a poco añadiré agradecimientos después de confirmar con las personas involucradas. Por supuesto, también debo agradecer a Dios, ¡jaja!
 
-One of the main reasons I love software development and system design - perhaps the only reason - is that our environment is relatively open and friendly. Most of the time, many seniors are very willing to answer questions - as long as you don't ask stupid questions without doing your homework.
+Una de las principales razones por las que me encanta el desarrollo de software y el diseño de sistemas -quizás la única razón- es que nuestro entorno es relativamente abierto y amigable. La mayoría de las veces, muchos veteranos están muy dispuestos a responder preguntas, siempre y cuando no hagas preguntas tontas sin haber hecho tus deberes.
 
-I really like the concept of this virtuous cycle. It's because we've been through the rain that we're willing to hold an umbrella for others.
+Realmente me gusta el concepto de este ciclo virtuoso. Es porque hemos pasado por la lluvia que estamos dispuestos a sostener un paraguas para los demás.
 
 ```md
-# Comprehensive System Engineering Training Program
+# Programa de Formación Integral en Ingeniería de Sistemas
 
-**From modular component design to enterprise-level system architecture, cultivating modern full-stack and architect talent with strategic decision-making and implementation capabilities.**
-
----
-
-## Course Overview
-
-This is a practical training program designed for "mid-to-senior engineers" transitioning to "architect" roles. The curriculum covers 16 core competency modules including **frontend architecture, API design, database modeling, CI/CD, system observability, performance optimization, state management, cloud deployment, overall system design, architectural styles, and cross-departmental collaboration**.
-
-Based on enterprise-level system development practices, this program aims to transform learners from single-technology executors into system-level engineers with **design capability, implementation ability, and decision-making power** through extensive case studies, simulated proposals, trade-off analyses, and architecture diagram creation.
+**Desde el diseño de componentes modulares hasta la arquitectura de sistemas a nivel empresarial, cultivando talentos modernos de full-stack y arquitectos con capacidades estratégicas de toma de decisiones e implementación.**
 
 ---
 
-## Learning Outcomes and Capability Transformation
+## Resumen del Curso
 
-| Capability Domain | Post-Learning Transformation |
+Este es un programa de formación práctica diseñado para "ingenieros de nivel medio a superior" en transición a roles de "arquitecto". El plan de estudios abarca 16 módulos de competencias básicas que incluyen **arquitectura de frontend, diseño de API, modelado de bases de datos, CI/CD, observabilidad del sistema, optimización del rendimiento, gestión de estados, despliegue en la nube, diseño general del sistema, estilos arquitectónicos y colaboración interdepartamental**.
+
+Basado en prácticas de desarrollo de sistemas a nivel empresarial, este programa tiene como objetivo transformar a los estudiantes de ejecutores de una sola tecnología a ingenieros a nivel de sistema con **capacidad de diseño, habilidad de implementación y poder de decisión** a través de extensos estudios de caso, propuestas simuladas, análisis de compensaciones y creación de diagramas de arquitectura.
+
+---
+
+## Resultados de Aprendizaje y Transformación de Capacidades
+
+| Dominio de Capacidad | Transformación Post-Aprendizaje |
 | --- | --- |
-| **Architectural Design Thinking** | Able to independently propose medium-to-large system architectures with comprehensive design and explanation of module partitioning, data consistency, availability, observability, and deployment strategies. |
-| **Modularization & Component Governance** | Able to design and maintain enterprise-level Design Systems and modular component libraries, mastering component abstraction, testability, and cross-framework application strategies. |
-| **API & Contract Governance** | Proficient in RESTful, BFF, Gateway architectural design, with OpenAPI contract thinking and version evolution governance capabilities. |
-| **Database Modeling & Performance Optimization** | Able to handle data structure design for OLTP/OLAP systems, feature data modeling, and data consistency challenges in high-concurrency scenarios. |
-| **Trade-off Analysis & Decision Recording** | Able to provide clear design rationale for system selection, write ADR (Architecture Decision Record) or Design Rationale, and master SLA/SLO/SLC and capacity planning. |
-| **CI/CD & DevOps** | Able to independently design Git Flow combined with multi-environment CI/CD automated deployment processes, familiar with Docker, GitHub Actions, GitLab CI, and other tools. |
-| **Observability & Error Troubleshooting** | Able to establish a complete observability architecture from Metrics, Logs, Traces to alert strategies, with practical capabilities to reduce MTTR (Mean Time to Resolution) and conduct incident drills. |
-| **Performance Optimization & Rendering Strategies** | Master optimization of Web Vitals metrics like LCP/CLS/TTI, and introduce rendering models like SSR/SSG/CDN/Skeleton to improve user experience. |
-| **State Management & Synchronization Strategies** | Master the design of state management architectures like Redux/NgRx and asynchronous synchronization strategies, supporting UI state separation across roles and frontend-backend data consistency. |
-| **Architectural Style Judgment** | Familiar with design styles like Clean Architecture, DDD, Hexagonal, CQRS, and able to judge their applicable scenarios and limitations. |
-| **Cross-Departmental Product Design & Process Derivation** | Able to effectively collaborate with Product Managers (PM), UX designers, and backend engineers, with capabilities in MVP decomposition, flowchart creation, and requirement transformation into semantic design. |
-| **Interview Response & Technical Presentation Skills** | Through design diagrams and outcome reports from each module, enhance performance in career interviews, technical presentations, system proposals, and design persuasiveness. |
+| **Pensamiento de Diseño Arquitectónico** | Capaz de proponer de forma independiente arquitecturas de sistemas de tamaño mediano a grande con un diseño y explicación completos de la partición de módulos, la coherencia de los datos, la disponibilidad, la observabilidad y las estrategias de despliegue. |
+| **Modularización y Gobernanza de Componentes** | Capaz de diseñar y mantener Sistemas de Diseño a nivel empresarial y bibliotecas de componentes modulares, dominando la abstracción de componentes, la capacidad de prueba y las estrategias de aplicación entre marcos. |
+| **API y Gobernanza de Contratos** | Competente en el diseño de arquitecturas RESTful, BFF, Gateway, con pensamiento de contratos de OpenAPI y capacidades de gobernanza de la evolución de versiones. |
+| **Modelado de Bases de Datos y Optimización del Rendimiento** | Capaz de manejar el diseño de estructuras de datos para sistemas OLTP/OLAP, el modelado de datos de características y los desafíos de coherencia de datos en escenarios de alta concurrencia. |
+| **Análisis de Compensaciones y Registro de Decisiones** | Capaz de proporcionar una justificación clara del diseño para la selección de sistemas, escribir ADR (Architecture Decision Record) o Razón de Diseño, y dominar SLA/SLO/SLC y la planificación de capacidad. |
+| **CI/CD y DevOps** | Capaz de diseñar de forma independiente flujos de Git Flow combinados con procesos de despliegue automatizado de CI/CD en múltiples entornos, familiarizado con Docker, GitHub Actions, GitLab CI y otras herramientas. |
+| **Observabilidad y Solución de Problemas de Errores** | Capaz de establecer una arquitectura de observabilidad completa desde Métricas, Registros, Trazas hasta estrategias de alerta, con capacidades prácticas para reducir el MTTR (Tiempo Medio de Resolución) y realizar simulacros de incidentes. |
+| **Optimización del Rendimiento y Estrategias de Renderizado** | Domina la optimización de las métricas de Web Vitals como LCP/CLS/TTI, e introduce modelos de renderizado como SSR/SSG/CDN/Skeleton para mejorar la experiencia del usuario. |
+| **Gestión de Estados y Estrategias de Sincronización** | Domina el diseño de arquitecturas de gestión de estados como Redux/NgRx y estrategias de sincronización asíncrona, soportando la separación del estado de la interfaz de usuario entre roles y la coherencia de los datos entre el frontend y el backend. |
+| **Juicio de Estilo Arquitectónico** | Familiarizado con estilos de diseño como Arquitectura Limpia, DDD, Hexagonal, CQRS, y capaz de juzgar sus escenarios de aplicación y limitaciones. |
+| **Diseño de Productos Interdepartamentales y Derivación de Procesos** | Capaz de colaborar eficazmente con Gerentes de Producto (PM), diseñadores de UX e ingenieros de backend, con capacidades en la descomposición de MVP, la creación de diagramas de flujo y la transformación de requisitos en un diseño semántico. |
+| **Respuesta a Entrevistas y Habilidades de Presentación Técnica** | A través de diagramas de diseño e informes de resultados de cada módulo, mejora el rendimiento en entrevistas de carrera, presentaciones técnicas, propuestas de sistemas y persuasión de diseños. |
 
 ---
 
-## Future Career Development Paths
+## Futuras Rutas de Desarrollo Profesional
 
-| Role | Capability Mapping Scenarios |
+| Rol | Escenarios de Mapeo de Capacidades |
 | --- | --- |
-| **Senior Fullstack Engineer** | Possess complete technical chain and cross-platform integration capabilities, able to lead architectural design and technology selection. |
-| **System Architect** | Able to conduct overall system design, technical decisions, exception handling, and deployment strategy proposals. |
-| **Tech-Oriented PM (Product Manager)** | Familiar with the collaborative language of technology and products, with the ability to write specifications, draw flowcharts, and derive MVPs. |
-| **DevOps Engineer / Platform Engineer** | Master CI/CD, automated deployment, and observability integration, able to implement continuous delivery culture within teams. |
-| **Technical Consultant / Project Lead** | Can serve as a consulting role, participating in enterprise technical transformation and core system construction guidance. |
+| **Ingeniero Fullstack Senior** | Posee una cadena técnica completa y capacidades de integración multiplataforma, capaz de liderar el diseño arquitectónico y la selección de tecnología. |
+| **Arquitecto de Sistemas** | Capaz de realizar el diseño general del sistema, decisiones técnicas, manejo de excepciones y propuestas de estrategias de despliegue. |
+| **PM Orientado a la Tecnología (Gerente de Producto)** | Familiarizado con el lenguaje colaborativo de la tecnología y los productos, con la capacidad de escribir especificaciones, dibujar diagramas de flujo y derivar MVPs. |
+| **Ingeniero de DevOps / Ingeniero de Plataforma** | Domina CI/CD, despliegue automatizado e integración de observabilidad, capaz de implementar la cultura de entrega continua dentro de los equipos. |
+| **Consultor Técnico / Líder de Proyecto** | Puede servir como un rol de consultoría, participando en la transformación técnica empresarial y la guía de construcción de sistemas centrales. |
 
-[API Solution Design](https://www.notion.so/API-214d54ae00a680c1b989c8841ea9d51f?pvs=21)
+[Diseño de Soluciones API](https://www.notion.so/API-214d54ae00a680c1b989c8841ea9d51f?pvs=21)
 
-[System Design Overview - Overall System Design & Trade-offs](https://www.notion.so/trade-off-214d54ae00a680239bc0cfd20ff75a12?pvs=21)
+[Visión General del Diseño de Sistemas - Diseño General del Sistema y Compensaciones](https://www.notion.so/trade-off-214d54ae00a680239bc0cfd20ff75a12?pvs=21)
 
-[Enterprise-Level Component Modularization and Design System Practice](https://www.notion.so/215d54ae00a6802596c9fb7ca7ed1408?pvs=21)
+[Modularización de Componentes a Nivel Empresarial y Práctica de Sistemas de Diseño](https://www.notion.so/215d54ae00a6802596c9fb7ca7ed1408?pvs=21)
 
-[Architectural Style Concepts and Theory](https://www.notion.so/215d54ae00a68057b936fe0d72e8d63d?pvs=21)
+[Conceptos y Teoría de Estilos Arquitectónicos](https://www.notion.so/215d54ae00a68057b936fe0d72e8d63d?pvs=21)
 
-[Version Control Artistry - Git Flow & CI/CD Automation Pipeline Construction](https://www.notion.so/Git-Flow-CI-CD-216d54ae00a680b9acbbda4031b16f95?pvs=21)
+[Arte del Control de Versiones - Construcción de Tuberías de Automatización de Git Flow y CI/CD](https://www.notion.so/Git-Flow-CI-CD-216d54ae00a680b9acbbda4031b16f95?pvs=21)
 
-[Cloud High-Availability Architecture Design & Practice](https://www.notion.so/216d54ae00a680b48bedf7205bd4d76b?pvs=21)
+[Diseño y Práctica de Arquitectura de Alta Disponibilidad en la Nube](https://www.notion.so/216d54ae00a680b48bedf7205bd4d76b?pvs=21)
 
-[System Observability & Error Tracking Design](https://www.notion.so/217d54ae00a68024bea5e267149212b8?pvs=21)
+[Diseño de Observabilidad del Sistema y Seguimiento de Errores](https://www.notion.so/217d54ae00a68024bea5e267149212b8?pvs=21)
 
-[Database Schema & Index Design](https://www.notion.so/Schema-Index-217d54ae00a68013913df0c2e008f175?pvs=21)
+[Diseño de Esquemas e Índices de Bases de Datos](https://www.notion.so/Schema-Index-217d54ae00a68013913df0c2e008f175?pvs=21)
 
-[Complex State Management Strategies](https://www.notion.so/218d54ae00a680b1badfdb2a2dbb3d57?pvs=21)
+[Estrategias de Gestión de Estados Complejos](https://www.notion.so/218d54ae00a680b1badfdb2a2dbb3d57?pvs=21)
 
-[UX Flow & Pain Point Identification](https://www.notion.so/UX-Flow-218d54ae00a680ffae00d70d0319e8f0?pvs=21)
+[Flujo de UX e Identificación de Puntos de Dolor](https://www.notion.so/UX-Flow-218d54ae00a680ffae00d70d0319e8f0?pvs=21)
 
-[A/B Testing & Growth Analytics](https://www.notion.so/A-B-218d54ae00a6800dbef8d97cb45ed5bf?pvs=21)
+[Pruebas A/B y Análisis de Crecimiento](https://www.notion.so/A-B-218d54ae00a6800dbef8d97cb45ed5bf?pvs=21)
 
-[Cross-Departmental Product Requirement Decomposition & Process Construction](https://www.notion.so/218d54ae00a680549d18ca6e5bb29994?pvs=21)
+[Descomposición de Requisitos de Productos Interdepartamentales y Construcción de Procesos](https://www.notion.so/218d54ae00a680549d18ca6e5bb29994?pvs=21)
 
-[@Template Resources](https://www.notion.so/21bd54ae00a680d98654de1a13359b9b?pvs=21)
+[Recursos de Plantillas @](https://www.notion.so/21bd54ae00a680d98654de1a13359b9b?pvs=21)
 ```
 
 ```md
-# API Solution Design
+# Diseño de Soluciones API
 
-**From RESTful design to enterprise-level API governance, building complete API solution design and implementation capabilities.**
-
----
-
-## Course Overview
-
-This course aims to build comprehensive API solution design capabilities, covering the complete process from basic semantic design, business modeling, contract protocols, version strategies, to integration design, deployment, and governance.
-
-The course goal is to enable learners to independently address enterprise-level RESTful architecture design challenges and integrate technical and strategic thinking to deliver robust, scalable API services.
+**Desde el diseño RESTful hasta la gobernanza de API a nivel empresarial, construyendo capacidades completas de diseño e implementación de soluciones API.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 3 credits
-- **Estimated Time Investment**: Total 60-80 hours
+Este curso tiene como objetivo construir capacidades integrales de diseño de soluciones API, cubriendo el proceso completo desde el diseño semántico básico, el modelado de negocios, los protocolos de contrato, las estrategias de versión, hasta el diseño de integración, el despliegue y la gobernanza.
 
-## Learning Objectives
-
-Learners will possess comprehensive API solution capabilities in "**design, integration, deployment, and governance**". The final deliverable should be an enterprise-level API design proposal and system documentation, including contract definitions, error handling mechanisms, version control strategies, and scalability design.
-
-## Core Materials
-
-- Masse, M. (2011). *REST API design rulebook*. O'Reilly Media.
-- Geewax, J. R. (2021). *API design patterns*. Manning Publications.
-- Abbott, M. L., & Fisher, M. T. (2015). *The art of scalability: Scalable web architecture, processes, and organizations for the modern enterprise* (2nd ed.). Addison-Wesley Professional.
-- Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley Professional.
+El objetivo del curso es permitir a los estudiantes abordar de forma independiente los desafíos del diseño de arquitecturas RESTful a nivel empresarial e integrar el pensamiento técnico y estratégico para ofrecer servicios API robustos y escalables.
 
 ---
 
-## Course Roadmap
+## Calendario de Aprendizaje
 
-| Week | Topic | Task Focus / Progress Check |
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 3 créditos
+- **Inversión de Tiempo Estimada**: Total 60-80 horas
+
+## Objetivos de Aprendizaje
+
+Los estudiantes poseerán capacidades integrales de solución de API en "**diseño, integración, despliegue y gobernanza**". El entregable final debe ser una propuesta de diseño de API a nivel empresarial y documentación del sistema, incluyendo definiciones de contrato, mecanismos de manejo de errores, estrategias de control de versiones y diseño de escalabilidad.
+
+## Materiales Centrales
+
+- Masse, M. (2011). *Libro de reglas de diseño de API REST*. O'Reilly Media.
+- Geewax, J. R. (2021). *Patrones de diseño de API*. Manning Publications.
+- Abbott, M. L., & Fisher, M. T. (2015). *El arte de la escalabilidad: Arquitectura web escalable, procesos y organizaciones para la empresa moderna* (2ª ed.). Addison-Wesley Professional.
+- Evans, E. (2003). *Diseño dirigido por el dominio: Abordando la complejidad en el corazón del software*. Addison-Wesley Professional.
+
+---
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **Course Overview & API Essence** | Learn architecture diagram creation and establish personalized learning goals. |
-| W2 | **API Design Philosophy: From CRUD to Contract Models** | Write analysis article comparing three different API design approaches. |
-| W3 | **Business Semantic Modeling & API Language Logic** | Model based on business processes and design corresponding API prototypes. |
-| W4 | **URL Naming & Resource Design Strategies** | Complete RESTful resource routing design with correct semantics. |
-| W5 | **HTTP Semantics & Error Design Philosophy** | Plan error status codes, idempotency, and request semantic strategies. |
-| W6 | **OpenAPI as Contract & Development Protocol** | Write OpenAPI contracts and establish Mock Server for testing. |
-| W7 | **Schema Design & Contract Testing** | Complete Schema validation mechanisms and contract testing tasks. |
-| W8 | **Quiz Week: Semantic Understanding & Contract Integration** | Verify learning outcomes through OpenAPI (YAML) file implementation and short answers. |
-| W9 | **System Integration Scenarios: Webhook & Event-Driven Architecture** | Design Webhook flow diagrams and simulate event triggering processes. |
-| W10 | **gRPC / GraphQL / REST Protocol Comparison** | Write analysis recommendations exploring applicable scenarios for the three protocols. |
-| W11 | **API Version Control Strategies & Evolvable Design** | Design coexistence architecture from `/v1` to `/v2` and smooth upgrade processes. |
-| W12 | **API Architecture Patterns: BFF & Gateway Integration** | Design Gateway architecture diagrams including Auth and Cache mechanisms. |
-| W13 | **API Governance Strategies & Monitoring** | Write API Policy documentation and design monitoring dashboards. |
-| W14 | **Project Architecture Week: From Requirement Modeling to API Definition** | Produce Domain Model, API contracts, and state transition diagrams. |
-| W15 | **Project Implementation Week: Feature Verification & Deployment Testing** | Upload feature test recordings, Postman Collection, and validation reports. |
-| W16 | **Final Proposal Practice: Architecture Presentation & Demo** | Conduct formal architecture proposal presentation and API feature demonstration. |
-| W17 | **Deployment, Stress Testing & Scalability Thinking** | Write stress test reports and propose system horizontal scaling solutions. |
-| W18 | **Final Presentation & Peer Review** | Conduct final presentation, peer review, and summarize course learning feedback. |
+| S1 | **Resumen del Curso y Esencia de la API** | Aprender la creación de diagramas de arquitectura y establecer objetivos de aprendizaje personalizados. |
+| S2 | **Filosofía de Diseño de API: De los Modelos CRUD a los Contratos** | Escribir un artículo de análisis comparando tres enfoques diferentes de diseño de API. |
+| S3 | **Modelado Semántico de Negocios y Lógica del Lenguaje de API** | Modelar basado en procesos de negocio y diseñar prototipos de API correspondientes. |
+| S4 | **Estrategias de Nomenclatura de URL y Diseño de Recursos** | Completar el diseño de enrutamiento de recursos RESTful con semántica correcta. |
+| S5 | **Semántica de HTTP y Filosofía de Diseño de Errores** | Planificar códigos de estado de error, idempotencia y estrategias semánticas de solicitud. |
+| S6 | **OpenAPI como Contrato y Protocolo de Desarrollo** | Escribir contratos de OpenAPI y establecer un Servidor Mock para pruebas. |
+| S7 | **Diseño de Esquemas y Pruebas de Contrato** | Completar mecanismos de validación de esquemas y tareas de prueba de contratos. |
+| S8 | **Semana de Examen: Comprensión Semántica e Integración de Contratos** | Verificar los resultados del aprendizaje a través de la implementación de archivos OpenAPI (YAML) y respuestas cortas. |
+| S9 | **Escenarios de Integración de Sistemas: Webhook y Arquitectura Dirigida por Eventos** | Diseñar diagramas de flujo de Webhook y simular procesos de activación de eventos. |
+| S10 | **Comparación de Protocolos gRPC / GraphQL / REST** | Escribir recomendaciones de análisis explorando escenarios aplicables para los tres protocolos. |
+| S11 | **Estrategias de Control de Versiones de API y Diseño Evolutivo** | Diseñar una arquitectura de coexistencia de `/v1` a `/v2` y procesos de actualización suaves. |
+| S12 | **Patrones de Arquitectura de API: BFF e Integración de Gateway** | Diseñar diagramas de arquitectura de Gateway incluyendo mecanismos de Autenticación y Caché. |
+| S13 | **Estrategias de Gobernanza de API y Monitoreo** | Escribir documentación de Política de API y diseñar paneles de monitoreo. |
+| S14 | **Semana de Arquitectura del Proyecto: Del Modelado de Requisitos a la Definición de API** | Producir Modelo de Dominio, contratos de API y diagramas de transición de estado. |
+| S15 | **Semana de Implementación del Proyecto: Verificación de Características y Pruebas de Despliegue** | Subir grabaciones de pruebas de características, Colección de Postman e informes de validación. |
+| S16 | **Práctica de Propuesta Final: Presentación de Arquitectura y Demostración** | Realizar una presentación formal de la propuesta de arquitectura y una demostración de las características de la API. |
+| S17 | **Despliegue, Pruebas de Estrés y Pensamiento de Escalabilidad** | Escribir informes de pruebas de estrés y proponer soluciones de escalado horizontal del sistema. |
+| S18 | **Presentación Final y Revisión por Pares** | Realizar la presentación final, la revisión por pares y resumir los comentarios de aprendizaje del curso. |
 
 ```
 
 ```md
-# System Design Overview - Overall System Design & Trade-offs
+# Resumen de Diseño de Sistemas - Diseño General del Sistema y Compensaciones
 
-**From module partitioning to architectural decisions, cultivating comprehensive system architecture design and trade-off analysis capabilities.**
-
----
-
-## Course Overview
-
-This course aims to cultivate learners' **architect perspective** for comprehensive system design. The curriculum covers system modularization, data consistency handling, high availability and scalability strategies, observability implementation, and particularly emphasizes **trade-off analysis** in design decisions.
+**Desde la partición de módulos hasta las decisiones arquitectónicas, cultivando capacidades integrales de diseño de arquitectura de sistemas y análisis de compensaciones.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 5 credits
-- **Estimated Time Investment**: 6-8 hours per week, approximately 150 hours total
+Este curso tiene como objetivo cultivar la **perspectiva de arquitecto** de los estudiantes para el diseño integral de sistemas. El plan de estudios cubre la modularización del sistema, el manejo de la coherencia de los datos, las estrategias de alta disponibilidad y escalabilidad, la implementación de la observabilidad y, en particular, enfatiza el **análisis de compensaciones** en las decisiones de diseño.
 
-## Learning Objectives
+---
 
-Learners will be able to independently design module boundaries, data consistency strategies, and monitoring modules for medium-to-large systems. Additionally, they will possess the ability to draw professional architecture diagrams, write Architecture Decision Records (ADR), conduct trade-off analysis and capacity estimation, and ultimately produce complete architecture proposals.
+## Calendario de Aprendizaje
 
-## Core Materials
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 5 créditos
+- **Inversión de Tiempo Estimada**: 6-8 horas por semana, aproximadamente 150 horas en total
 
-- Ford, N., Richards, M., Sadalage, P., & Dehghani, Z. (2021). *Software architecture: The hard parts*. O'Reilly Media.
-- Richards, M., & Ford, N. (2020). *Fundamentals of software architecture*. O'Reilly Media.
-- Fairbanks, G. (2010). *Just enough software architecture: A risk-driven approach*. Marshall & Brainerd.
-- Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley Professional.
-- Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley Professional.
-- Martin, R. C. (2017). *Clean architecture: A craftsman's guide to software structure and design*. Prentice Hall.
-- Kleppmann, M. (2017). *Designing data-intensive applications*. O'Reilly Media.
-- Narkhede, N., Shapira, G., & Palino, T. (2017). *Kafka: The definitive guide*. O'Reilly Media.
-- Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). *Site reliability engineering: How Google runs production systems*. O'Reilly Media.
-- Majors, C., Fong-Jones, L., & Miranda, G. (2022). *Observability engineering*. O'Reilly Media.
-- Abbott, M. L., & Fisher, M. T. (2015). *The art of scalability* (2nd ed.). Addison-Wesley Professional.
-- Nygard, M. T. (2018). *Release it! Design and deploy production-ready software* (2nd ed.). Pragmatic Bookshelf.
-- Allspaw, J. (2008). *The art of capacity planning*. O'Reilly Media.
+## Objetivos de Aprendizaje
 
-## Course Roadmap
+Los estudiantes podrán diseñar de forma independiente los límites de los módulos, las estrategias de coherencia de los datos y los módulos de monitoreo para sistemas de tamaño mediano a grande. Además, poseerán la capacidad de dibujar diagramas de arquitectura profesionales, escribir Registros de Decisiones de Arquitectura (ADR), realizar análisis de compensaciones y estimación de capacidad, y finalmente producir propuestas de arquitectura completas.
 
-| Week | Topic | Task Focus / Progress Check |
+## Materiales Centrales
+
+- Ford, N., Richards, M., Sadalage, P., & Dehghani, Z. (2021). *Arquitectura de software: Las partes difíciles*. O'Reilly Media.
+- Richards, M., & Ford, N. (2020). *Fundamentos de la arquitectura de software*. O'Reilly Media.
+- Fairbanks, G. (2010). *Solo la arquitectura de software suficiente: Un enfoque impulsado por el riesgo*. Marshall & Brainerd.
+- Evans, E. (2003). *Diseño dirigido por el dominio: Abordando la complejidad en el corazón del software*. Addison-Wesley Professional.
+- Vernon, V. (2013). *Implementando el diseño dirigido por el dominio*. Addison-Wesley Professional.
+- Martin, R. C. (2017). *Arquitectura limpia: Una guía de artesano para la estructura y el diseño de software*. Prentice Hall.
+- Kleppmann, M. (2017). *Diseñando aplicaciones intensivas en datos*. O'Reilly Media.
+- Narkhede, N., Shapira, G., & Palino, T. (2017). *Kafka: La guía definitiva*. O'Reilly Media.
+- Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). *Ingeniería de confiabilidad del sitio: Cómo Google ejecuta los sistemas de producción*. O'Reilly Media.
+- Majors, C., Fong-Jones, L., & Miranda, G. (2022). *Ingeniería de la observabilidad*. O'Reilly Media.
+- Abbott, M. L., & Fisher, M. T. (2015). *El arte de la escalabilidad* (2ª ed.). Addison-Wesley Professional.
+- Nygard, M. T. (2018). *¡Lánzalo! Diseña y despliega software listo para producción* (2ª ed.). Pragmatic Bookshelf.
+- Allspaw, J. (2008). *El arte de la planificación de la capacidad*. O'Reilly Media.
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **Architecture Design Introduction** | Clarify the distinction between system design and software design, establish system layering concepts. |
-| W2 | **Architecture Types & Visualization** | Compare monolithic, microservices, serverless architectures, and practice diagram creation. |
-| W3 | **Module Boundaries & Responsibility Partitioning** | Learn Layer, Domain, Service partitioning and conduct scenario exercises. |
-| W4 | **Architecture Documentation & Proposal Practice** | Produce ADR (Architecture Decision Record) and integrate data charts. |
-| W5 | **Strong Consistency Handling** | Design and implement Transaction models. |
-| W6 | **Eventual Consistency & Event Integration** | Learn practical applications of Event Sourcing and Message Queue. |
-| W7 | **Asynchronous Process Design & Queue Integration** | Compare Kafka, RabbitMQ design patterns and complete integration tasks. |
-| W8 | **Availability Design & Risk Patterns** | Design fault tolerance mechanisms like Retry, Timeout, Circuit Breaker. |
-| W9 | **Horizontal Scaling Strategies & Caching** | Practice Cache, CDN, Sharding expansion patterns. |
-| W10 | **Observability Introduction & Module Design** | Design system integration architecture for Metrics, Logging, Tracing. |
-| W11 | **Observability Tools Implementation** | Practice Prometheus + Grafana or OpenTelemetry. |
-| W12 | **Trade-off Analysis Framework Construction** | Learn how to conduct comparative analysis and report writing for architecture choices. |
-| W13 | **Trade-off Analysis Practice & Review** | Conduct interview-style architecture problem exercises and multi-scenario analysis. |
-| W14 | **SLA, SLO & System Health Management** | Assess architecture from an operational perspective and derive SLI calculations and reports. |
-| W15 | **System Capacity Estimation Model** | Build resource usage models and conduct performance stress simulation analysis. |
-| W16 | **Integrated Architecture Proposal Report Writing** | Write a complete architecture design and decision proposal report. |
-| W17 | **Final Defense Practice & Assessment** | Simulate interview scenarios, conduct system problem analysis and defense training. |
-| W18 | **Project Conclusion Presentation** | Submit complete system design documentation and decision record report, participate in peer evaluation. |
+| S1 | **Introducción al Diseño de Arquitectura** | Aclarar la distinción entre diseño de sistemas y diseño de software, establecer conceptos de capas de sistema. |
+| S2 | **Tipos de Arquitectura y Visualización** | Comparar arquitecturas monolíticas, de microservicios y sin servidor, y practicar la creación de diagramas. |
+| S3 | **Límites de Módulos y Partición de Responsabilidades** | Aprender la partición por Capa, Dominio, Servicio y realizar ejercicios de escenario. |
+| S4 | **Documentación de Arquitectura y Práctica de Propuestas** | Producir ADR (Registro de Decisiones de Arquitectura) e integrar gráficos de datos. |
+| S5 | **Manejo de Coherencia Fuerte** | Diseñar e implementar modelos de Transacción. |
+| S6 | **Coherencia Eventual e Integración de Eventos** | Aprender aplicaciones prácticas de Event Sourcing y Cola de Mensajes. |
+| S7 | **Diseño de Procesos Asíncronos e Integración de Colas** | Comparar patrones de diseño de Kafka, RabbitMQ y completar tareas de integración. |
+| S8 | **Diseño de Disponibilidad y Patrones de Riesgo** | Diseñar mecanismos de tolerancia a fallos como Reintento, Tiempo de Espera, Cortocircuito. |
+| S9 | **Estrategias de Escalado Horizontal y Caché** | Practicar patrones de expansión de Caché, CDN, Fragmentación. |
+| S10 | **Introducción a la Observabilidad y Diseño de Módulos** | Diseñar la arquitectura de integración del sistema para Métricas, Registros, Trazas. |
+| S11 | **Implementación de Herramientas de Observabilidad** | Practicar Prometheus + Grafana o OpenTelemetry. |
+| S12 | **Construcción del Marco de Análisis de Compensaciones** | Aprender a realizar análisis comparativos y redacción de informes para elecciones de arquitectura. |
+| S13 | **Práctica y Revisión del Análisis de Compensaciones** | Realizar ejercicios de problemas de arquitectura tipo entrevista y análisis de múltiples escenarios. |
+| S14 | **SLA, SLO y Gestión de la Salud del Sistema** | Evaluar la arquitectura desde una perspectiva operativa y derivar cálculos e informes de SLI. |
+| S15 | **Modelo de Estimación de Capacidad del Sistema** | Construir modelos de uso de recursos y realizar análisis de simulación de estrés de rendimiento. |
+| S16 | **Redacción de Informes de Propuestas de Arquitectura Integrada** | Escribir un diseño de arquitectura completo y un informe de propuesta de decisión. |
+| S17 | **Práctica y Evaluación de la Defensa Final** | Simular escenarios de entrevista, realizar análisis de problemas del sistema y entrenamiento de defensa. |
+| S18 | **Presentación de Conclusión del Proyecto** | Enviar documentación completa de diseño del sistema e informe de registro de decisiones, participar en la evaluación por pares. |
 ```
 
 ```md
-# Enterprise-Level Component Modularization and Design System Practice
+# Modularización de Componentes a Nivel Empresarial y Práctica de Sistemas de Diseño
 
-**From HTML semantics to enterprise-level UI governance, comprehensively master modular component design and maintenance implementation technology.**
-
----
-
-## Course Overview
-
-This course aims to comprehensively strengthen learners' foundational understanding and semantic mastery in **component design**. The curriculum starts from HTML element context, covers rendering mechanisms and component governance, and ultimately reaches modular maintenance, helping learners comprehensively master the implementation technology of enterprise-level UI design systems.
+**Desde la semántica de HTML hasta la gobernanza de la interfaz de usuario a nivel empresarial, dominando de manera integral la tecnología de diseño e implementación de mantenimiento de componentes modulares.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 20 weeks
-- **Recommended Credits**: 4 credits
-- **Estimated Time Investment**: Approximately 6 hours per week, approximately 120 hours total
-
-## Learning Objectives
-
-Learners will be able to independently design, test, govern, and deploy a component system that meets enterprise needs. Additionally, they will possess the ability to propose optimization suggestions and refactoring solutions for performance bottlenecks, semantic misuse, and module strategies.
-
-## Core Materials
-
-- Frost, B. (2016). *Atomic design*. Brad Frost.
-- Curtis, M. (2021). *Designing design systems*. SitePoint.
-- Godbolt, M. (2015). *Frontend architecture for design systems*. O'Reilly Media.
-- Wathan, A., & Schoger, S. (2018). *Refactoring UI*. Refactoring UI.
-- Martin, R. C. (2008). *Clean code: A handbook of agile software craftsmanship*. Prentice Hall.
-- Meta Platforms. (n.d.). *React documentation*. https://react.dev/
-- Pickering, H. (2019). *Inclusive components*. Smashing Magazine.
-- Horton, S. (2017). *Accessibility for everyone*. A Book Apart.
+Este curso tiene como objetivo fortalecer de manera integral la comprensión fundamental y el dominio semántico de los estudiantes en el **diseño de componentes**. El plan de estudios comienza desde el contexto de los elementos HTML, cubre los mecanismos de renderizado y la gobernanza de componentes, y finalmente llega al mantenimiento modular, ayudando a los estudiantes a dominar de manera integral la tecnología de implementación de sistemas de diseño de interfaz de usuario a nivel empresarial.
 
 ---
 
-## Course Roadmap (20-Week Complete Schedule)
+## Calendario de Aprendizaje
 
-| Week | Topic | Task Focus / Check |
+- **Duración del Semestre**: 20 semanas
+- **Créditos Recomendados**: 4 créditos
+- **Inversión de Tiempo Estimada**: Aproximadamente 6 horas por semana, aproximadamente 120 horas en total
+
+## Objetivos de Aprendizaje
+
+Los estudiantes podrán diseñar, probar, gobernar y desplegar de forma independiente un sistema de componentes que satisfaga las necesidades de la empresa. Además, poseerán la capacidad de proponer sugerencias de optimización y soluciones de refactorización para cuellos de botella de rendimiento, uso indebido de la semántica y estrategias de módulos.
+
+## Materiales Centrales
+
+- Frost, B. (2016). *Diseño atómico*. Brad Frost.
+- Curtis, M. (2021). *Diseñando sistemas de diseño*. SitePoint.
+- Godbolt, M. (2015). *Arquitectura de frontend para sistemas de diseño*. O'Reilly Media.
+- Wathan, A., & Schoger, S. (2018). *Refactorizando la interfaz de usuario*. Refactoring UI.
+- Martin, R. C. (2008). *Código limpio: Un manual de artesanía de software ágil*. Prentice Hall.
+- Meta Platforms. (n.d.). *Documentación de React*. https://react.dev/
+- Pickering, H. (2019). *Componentes inclusivos*. Smashing Magazine.
+- Horton, S. (2017). *Accesibilidad para todos*. A Book Apart.
+
+---
+
+## Hoja de Ruta del Curso (Calendario Completo de 20 Semanas)
+
+| Semana | Tema | Foco de la Tarea / Verificación |
 | --- | --- | --- |
-| W1 | **Why Design Systems & Modularization?** | Draw Design System architecture diagram and component layering visualization. |
-| W2 | **Atomic Design & Component Layering Principles** | Refactor any UI Flow into component tree from Atom → Template. |
-| W3 | **HTML Element Semantics & Composition Principles (Structural)** | Use `<section>`, `<article>` and other tags to compose product card components. |
-| W4 | **HTML Element Semantics & Composition Principles (Forms & Controls)** | Use correct `<label>`, `<fieldset>` to compose forms. |
-| W5 | **HTML Element Semantics & Composition Principles (Interactive & Media)** | Create accessible interactive components (e.g., buttons, Carousel) and image fallback mechanisms. |
-| W6 | **Design Token Design & Theme Switching Mechanism** | Complete a comprehensive Token architecture and implement dark/light mode switching. |
-| W7 | **Props / State / Context Modular Design** | Clarify state and control design principles, and encapsulate controlled components. |
-| W8 | **Virtual DOM & Render Decision Tree Principles** | Draw Render flow diagram and explain Reconciliation mechanism. |
-| W9 | **Component Re-render Trigger & Performance Strategies** | Write performance trap reproduction cases and explore `memo` best practices. |
-| W10 | **High-Complexity Component Abstract Design & Reuse Strategies** | Extract abstract Form / Table components and encapsulate complex Slot logic. |
-| W11 | **Accessibility Strategy & Testing Tools** | Use Axe, Lighthouse and other tools to detect component accessibility. |
-| W12 | **Storybook-Driven Documentation & Control Document Generation** | Integrate Controls / DocsPage and organize Token display. |
-| W13 | **Web Component & Cross-Framework Component Implementation** | Write pure HTML custom elements and use them in three major mainstream frameworks. |
-| W14 | **Snapshot Testing & CI Verification Process** | Write unit tests and visual tests, integrate into GitHub Actions. |
-| W15 | **Nx / Monorepo Structure Planning & Layering Strategy** | Plan component packages, Token packages, tool packages layering and sharing strategies. |
-| W16 | **Component Governance & Naming Strategy** | Write component naming rules, deprecation processes, and internal maintenance Wiki. |
-| W17 | **Final Project Design Week: Design System Implementation** | Architect a complete Design System including implementation, testing, and CI processes. |
-| W18 | **Architecture Proposal Week: Design Principles & Maintenance Presentation** | Present component design, testing, deployment, version strategies, and outcome pages. |
-| W19 | **Outcome Display & Peer Review** | Conduct peer review, Q&A discussion, and revision suggestions. |
-| W20 | **Final Review & Course Summary** | Conduct self-assessment, capability map mapping, and output learning portfolio files. |
+| S1 | **¿Por qué Sistemas de Diseño y Modularización?** | Dibujar un diagrama de arquitectura del Sistema de Diseño y una visualización de las capas de componentes. |
+| S2 | **Diseño Atómico y Principios de Capas de Componentes** | Refactorizar cualquier Flujo de UI en un árbol de componentes desde Átomo → Plantilla. |
+| S3 | **Semántica de Elementos HTML y Principios de Composición (Estructural)** | Usar etiquetas como `<section>`, `<article>` para componer componentes de tarjetas de productos. |
+| S4 | **Semántica de Elementos HTML y Principios de Composición (Formularios y Controles)** | Usar correctamente `<label>`, `<fieldset>` para componer formularios. |
+| S5 | **Semántica de Elementos HTML y Principios de Composición (Interactivos y Multimedia)** | Crear componentes interactivos accesibles (por ejemplo, botones, Carrusel) y mecanismos de reserva de imágenes. |
+| S6 | **Diseño de Tokens de Diseño y Mecanismo de Cambio de Tema** | Completar una arquitectura de Tokens completa e implementar el cambio de modo oscuro/claro. |
+| S7 | **Diseño Modular de Props / Estado / Contexto** | Aclarar los principios de diseño de estado y control, y encapsular los componentes controlados. |
+| S8 | **Principios del DOM Virtual y del Árbol de Decisiones de Renderizado** | Dibujar un diagrama de flujo de Renderizado y explicar el mecanismo de Reconciliación. |
+| S9 | **Disparador de Re-renderizado de Componentes y Estrategias de Rendimiento** | Escribir casos de reproducción de trampas de rendimiento y explorar las mejores prácticas de `memo`. |
+| S10 | **Diseño Abstracto de Componentes de Alta Complejidad y Estrategias de Reutilización** | Extraer componentes abstractos de Formulario / Tabla y encapsular la lógica compleja de Slot. |
+| S11 | **Estrategia de Accesibilidad y Herramientas de Prueba** | Usar Axe, Lighthouse y otras herramientas para detectar la accesibilidad de los componentes. |
+| S12 | **Documentación Impulsada por Storybook y Generación de Documentos de Control** | Integrar Controles / DocsPage y organizar la visualización de Tokens. |
+| S13 | **Implementación de Componentes Web y Componentes Multi-framework** | Escribir elementos personalizados de HTML puro y usarlos en los tres principales marcos de trabajo convencionales. |
+| S14 | **Pruebas de Instantáneas y Proceso de Verificación de CI** | Escribir pruebas unitarias y pruebas visuales, integrarlas en GitHub Actions. |
+| S15 | **Planificación de Estructura Nx / Monorepo y Estrategia de Capas** | Planificar paquetes de componentes, paquetes de Tokens, paquetes de herramientas, estrategias de capas y uso compartido. |
+| S16 | **Gobernanza de Componentes y Estrategia de Nomenclatura** | Escribir reglas de nomenclatura de componentes, procesos de desaprobación y Wiki de mantenimiento interno. |
+| S17 | **Semana de Diseño del Proyecto Final: Implementación del Sistema de Diseño** | Arquitectar un Sistema de Diseño completo que incluya procesos de implementación, pruebas y CI. |
+| S18 | **Semana de Propuestas de Arquitectura: Presentación de Principios de Diseño y Mantenimiento** | Presentar el diseño de componentes, las pruebas, el despliegue, las estrategias de versión y las páginas de resultados. |
+| S19 | **Visualización de Resultados y Revisión por Pares** | Realizar una revisión por pares, una discusión de preguntas y respuestas y sugerencias de revisión. |
+| S20 | **Revisión Final y Resumen del Curso** | Realizar una autoevaluación, un mapeo del mapa de capacidades y generar archivos de portafolio de aprendizaje. |
 ```
 
 ```md
-# Architectural Style Concepts and Theory
+# Conceptos y Teoría de Estilos Arquitectónicos
 
-**In-depth exploration of modern architectural styles, cultivating the ability to draw and explain enterprise-level architecture design diagrams.**
-
----
-
-## Course Overview
-
-This course is designed for engineers with mid-to-senior system design experience, aimed at in-depth exploration of mainstream **architectural styles** in the industry, including Clean Architecture, DDD, Hexagonal, CQRS, Event Sourcing, TDD, BDD, etc. The course will combine architectural style and application scenario correspondence training to cultivate learners' ability to draw and explain enterprise-level architecture design diagrams.
+**Exploración en profundidad de los estilos arquitectónicos modernos, cultivando la capacidad de dibujar y explicar diagramas de diseño de arquitectura a nivel empresarial.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 20 weeks (including holidays and flexible integration weeks)
-- **Recommended Credits**: 5 credits
-- **Estimated Time Investment**: Approximately 6 hours per week
+Este curso está diseñado para ingenieros con experiencia en diseño de sistemas de nivel medio a superior, con el objetivo de explorar en profundidad los **estilos arquitectónicos** convencionales en la industria, incluyendo Arquitectura Limpia, DDD, Hexagonal, CQRS, Event Sourcing, TDD, BDD, etc. El curso combinará el estilo arquitectónico y la capacitación en la correspondencia de escenarios de aplicación para cultivar la capacidad de los estudiantes de dibujar y explicar diagramas de diseño de arquitectura a nivel empresarial.
 
-## Learning Objectives
+---
 
-- Master the design thinking and dependency management strategies of multiple modern architectural styles.
-- Able to list 3 primary and 2 secondary applicable scenarios for each architectural style.
-- Able to draw complete architecture design diagrams for any system scenario and clearly explain their trade-off principles.
+## Calendario de Aprendizaje
 
-## Core Materials
+- **Duración del Semestre**: 20 semanas (incluyendo vacaciones y semanas de integración flexible)
+- **Créditos Recomendados**: 5 créditos
+- **Inversión de Tiempo Estimada**: Aproximadamente 6 horas por semana
 
-- Martin, R. C. (2017). *Clean architecture: A craftsman's guide to software structure and design*. Prentice Hall.
-- Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley Professional.
-- Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley Professional.
-- Percival, H., & Gregory, B. (2020). *Architecture patterns with Python*. O'Reilly Media.
-- Abbott, M. L., & Fisher, M. T. (2015). *The art of scalability* (2nd ed.). Addison-Wesley Professional.
-- Richards, M., & Ford, N. (2020). *Fundamentals of software architecture*. O'Reilly Media.
-- Vernon, V. (2016). *Domain-driven design distilled*. Addison-Wesley Professional.
+## Objetivos de Aprendizaje
 
-## Course Roadmap
+- Dominar el pensamiento de diseño y las estrategias de gestión de dependencias de múltiples estilos arquitectónicos modernos.
+- Capaz de enumerar 3 escenarios de aplicación primarios y 2 secundarios para cada estilo arquitectónico.
+- Capaz de dibujar diagramas de diseño de arquitectura completos para cualquier escenario de sistema y explicar claramente sus principios de compensación.
 
-| Week | Topic | Task Focus / Progress Check |
+## Materiales Centrales
+
+- Martin, R. C. (2017). *Arquitectura limpia: Una guía de artesano para la estructura y el diseño de software*. Prentice Hall.
+- Evans, E. (2003). *Diseño dirigido por el dominio: Abordando la complejidad en el corazón del software*. Addison-Wesley Professional.
+- Vernon, V. (2013). *Implementando el diseño dirigido por el dominio*. Addison-Wesley Professional.
+- Percival, H., & Gregory, B. (2020). *Patrones de arquitectura con Python*. O'Reilly Media.
+- Abbott, M. L., & Fisher, M. T. (2015). *El arte de la escalabilidad* (2ª ed.). Addison-Wesley Professional.
+- Richards, M., & Ford, N. (2020). *Fundamentos de la arquitectura de software*. O'Reilly Media.
+- Vernon, V. (2016). *Diseño dirigido por el dominio destilado*. Addison-Wesley Professional.
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **Course Introduction & Modern Architecture Evolution Overview** | Recognize various architectural philosophies and their application scenarios, draw architecture evolution atlas. |
-| W2 | **Clean Architecture Deep Principles** | Learn concepts of Entities, Use Cases, Adapters, Frameworks, and complete design drafts. |
-| W3 | **Clean Architecture Primary Application Scenario Practice** | Analyze architecture diagrams for ERP, order systems, multi-module CMS. |
-| W4 | **Clean Architecture Secondary Applications & Trade-off Analysis** | Using Ticket system and data services as examples, analyze design limitations and expansion solutions. |
-| W5 | **DDD Core Modeling Logic** | Conduct design exercises for Entity, Value Object, Aggregates, Bounded Context. |
-| W6 | **DDD Semantic Modeling Practice** | Analyze domain models for logistics, trading platforms, multi-tenant accounting systems. |
-| W7 | **Context Mapping & ACL / Cross-Boundary Strategies** | Establish graphical illustrations and design thinking exercises for Anti-Corruption Layer (ACL). |
-| W8 | **Hexagonal Architecture** | Deconstruct the concept of Ports & Adapters with practical examples. |
-| W9 | **Hexagonal Application Scenario Analysis** | Explore examples of multi-entry applications, schedulers, external CLI integration. |
-| W10 | **CQRS + Event Sourcing Theory & Implementation Paradigm** | Design Command/Query separation architecture diagrams and event flows. |
-| W11 | **CQRS Practical Application Domain Practice** | Write design specifications for flash sale activity systems, IoT control platforms. |
-| W12 | **TDD / BDD Design Philosophy & Drive Development Methods** | Illustrate test layer responsibility partitioning and application layer drive development strategies. |
-| W13 | **TDD / BDD Role in Architecture Decisions** | Conduct case discussions and write BDD development process division practical drafts. |
-| W14 | **Screaming / Plugin / Layered Patterns** | Learn how to build semantically clear and module expansion-friendly systems. |
-| W15 | **Style Adaptation Matrix & Trade-off Strategy Diagram Organization** | Establish design decision matrix and case correspondence tables. |
-| W16 | **Design Practice Week 1: Clean / DDD Independent Architecture Proposal** | Conduct practical drawing and prepare design explanation presentations. |
-| W17 | **Design Practice Week 2: CQRS / Hexagonal Architecture Draft** | Conduct selection and design draft production in multi-module integration scenarios. |
-| W18 | **Holiday Week & Progress Integration Week** | Flexible time arrangement to complete assigned reading tasks. |
-| W19 | **Final Design Jam: Three Scenario Simulation Design** | Each learner outputs a complete architectural decision and explanation document. |
-| W20 | **Outcome Presentation & Architecture Q&A Session** | Conduct presentation proposals, Peer Review, and Q&A practice. |
+| S1 | **Introducción al Curso y Resumen de la Evolución de la Arquitectura Moderna** | Reconocer diversas filosofías arquitectónicas y sus escenarios de aplicación, dibujar un atlas de la evolución de la arquitectura. |
+| S2 | **Principios Profundos de la Arquitectura Limpia** | Aprender conceptos de Entidades, Casos de Uso, Adaptadores, Marcos de Trabajo y completar borradores de diseño. |
+| S3 | **Práctica de Escenarios de Aplicación Primarios de la Arquitectura Limpia** | Analizar diagramas de arquitectura para ERP, sistemas de pedidos, CMS multimodulares. |
+| S4 | **Aplicaciones Secundarias de la Arquitectura Limpia y Análisis de Compensaciones** | Usando el sistema de Tickets y los servicios de datos como ejemplos, analizar las limitaciones del diseño y las soluciones de expansión. |
+| S5 | **Lógica de Modelado Central de DDD** | Realizar ejercicios de diseño para Entidad, Objeto de Valor, Agregados, Contexto Delimitado. |
+| S6 | **Práctica de Modelado Semántico de DDD** | Analizar modelos de dominio para logística, plataformas de comercio, sistemas de contabilidad multi-inquilino. |
+| S7 | **Mapeo de Contexto y Estrategias de ACL / Transfronterizas** | Establecer ilustraciones gráficas y ejercicios de pensamiento de diseño para la Capa Anticorrupción (ACL). |
+| S8 | **Arquitectura Hexagonal** | Deconstruir el concepto de Puertos y Adaptadores con ejemplos prácticos. |
+| S9 | **Análisis de Escenarios de Aplicación Hexagonal** | Explorar ejemplos de aplicaciones de múltiples entradas, planificadores, integración de CLI externa. |
+| S10 | **Teoría y Paradigma de Implementación de CQRS + Event Sourcing** | Diseñar diagramas de arquitectura de separación de Comando/Consulta y flujos de eventos. |
+| S11 | **Práctica de Dominio de Aplicación Práctica de CQRS** | Escribir especificaciones de diseño para sistemas de actividad de venta flash, plataformas de control de IoT. |
+| S12 | **Filosofía de Diseño de TDD / BDD y Métodos de Desarrollo Impulsados** | Ilustrar la partición de responsabilidades de la capa de prueba y las estrategias de desarrollo impulsadas por la capa de aplicación. |
+| S13 | **Papel de TDD / BDD en las Decisiones de Arquitectura** | Realizar discusiones de casos y escribir borradores prácticos de división del proceso de desarrollo de BDD. |
+| S14 | **Patrones Screaming / Plugin / Layered** | Aprender a construir sistemas semánticamente claros y amigables con la expansión de módulos. |
+| S15 | **Matriz de Adaptación de Estilos y Organización de Diagramas de Estrategia de Compensación** | Establecer una matriz de decisiones de diseño y tablas de correspondencia de casos. |
+| S16 | **Semana de Práctica de Diseño 1: Propuesta de Arquitectura Independiente Limpia / DDD** | Realizar dibujos prácticos y preparar presentaciones de explicación del diseño. |
+| S17 | **Semana de Práctica de Diseño 2: Borrador de Arquitectura CQRS / Hexagonal** | Realizar la selección y producción de borradores de diseño en escenarios de integración multimodular. |
+| S18 | **Semana de Vacaciones y Semana de Integración de Progreso** | Arreglo de tiempo flexible para completar las tareas de lectura asignadas. |
+| S19 | **Jam de Diseño Final: Diseño de Simulación de Tres Escenarios** | Cada estudiante produce un documento completo de decisión y explicación arquitectónica. |
+| S20 | **Presentación de Resultados y Sesión de Preguntas y Respuestas de Arquitectura** | Realizar propuestas de presentación, Revisión por Pares y práctica de preguntas y respuestas. |
 
-**Notes**:
-- Each architectural style will correspond to 3+2 application scenarios, with related materials and discussion resources supplemented weekly.
-- Implementation requirements are limited to illustrations and document output, no code writing required.
-- Architecture diagrams can be created using C4 Model, Mermaid, Whimsical, Diagrams.net, and other tools.
-- Final outcomes must include architecture drafts and design rationale explanations for any practical scenario.
+**Notas**:
+- Cada estilo arquitectónico corresponderá a 3+2 escenarios de aplicación, con materiales relacionados y recursos de discusión complementados semanalmente.
+- Los requisitos de implementación se limitan a la producción de ilustraciones y documentos, no se requiere escribir código.
+- Los diagramas de arquitectura se pueden crear usando C4 Model, Mermaid, Whimsical, Diagrams.net y otras herramientas.
+- Los resultados finales deben incluir borradores de arquitectura y explicaciones de la justificación del diseño para cualquier escenario práctico.
 
 ```
 
 ```md
-# Version Control Artistry - Git Flow & CI/CD Automation Pipeline Construction
+# Arte del Control de Versiones - Construcción de Tuberías de Automatización de Git Flow y CI/CD
 
-**From Git branching strategies to CI/CD automated deployment, comprehensively master enterprise-level version control and DevOps practices.**
-
----
-
-## Course Overview
-
-This course aims to cultivate learners' mastery of enterprise-level **version control** and **automation processes**. The content covers Git branching strategies, CI/CD automated build and deployment, containerization implementation, process design strategies, and DevOps organizational culture practices to meet the interview and practical requirements of senior technical positions.
+**Desde las estrategias de ramificación de Git hasta el despliegue automatizado de CI/CD, dominando de manera integral el control de versiones a nivel empresarial y las prácticas de DevOps.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 4 credits
-
-## Learning Objectives
-
-Able to independently design and implement enterprise-level Git Flow and CI/CD automation processes, master containerization deployment strategies, and possess the ability to promote and practice DevOps culture.
-
-## Core Materials
-
-- Kim, G., Humble, J., Debois, P., & Willis, J. (2016). *The DevOps handbook: How to create world-class agility, reliability, and security in technology organizations*. IT Revolution Press.
-- Forsgren, N., Humble, J., & Kim, G. (2018). *Accelerate: The science of lean software and DevOps*. IT Revolution Press.
-- Matthias, K., & Kane, S. P. (2018). *Docker: Up & running* (2nd ed.). O'Reilly Media.
-- GitHub. (n.d.). *GitHub Actions documentation*. https://docs.github.com/en/actions
+Este curso tiene como objetivo cultivar el dominio de los estudiantes del **control de versiones** y los **procesos de automatización** a nivel empresarial. El contenido cubre estrategias de ramificación de Git, construcción y despliegue automatizados de CI/CD, implementación de contenedores, estrategias de diseño de procesos y prácticas de cultura organizacional de DevOps para cumplir con los requisitos de entrevistas y prácticos de los puestos técnicos de alto nivel.
 
 ---
 
-## Course Roadmap (18 Weeks Total)
+## Calendario de Aprendizaje
 
-| Week | Topic | Key Content & Integration Supplement |
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 4 créditos
+
+## Objetivos de Aprendizaje
+
+Capaz de diseñar e implementar de forma independiente procesos de automatización de Git Flow y CI/CD a nivel empresarial, dominar las estrategias de despliegue de contenedores y poseer la capacidad de promover y practicar la cultura de DevOps.
+
+## Materiales Centrales
+
+- Kim, G., Humble, J., Debois, P., & Willis, J. (2016). *El manual de DevOps: Cómo crear agilidad, confiabilidad y seguridad de clase mundial en las organizaciones de tecnología*. IT Revolution Press.
+- Forsgren, N., Humble, J., & Kim, G. (2018). *Acelerar: La ciencia del software lean y DevOps*. IT Revolution Press.
+- Matthias, K., & Kane, S. P. (2018). *Docker: En marcha* (2ª ed.). O'Reilly Media.
+- GitHub. (s.f.). *Documentación de GitHub Actions*. https://docs.github.com/es/actions
+
+---
+
+## Hoja de Ruta del Curso (18 Semanas en Total)
+
+| Semana | Tema | Contenido Clave y Suplemento de Integración |
 | --- | --- | --- |
-| W1 | **Git Basics & Commit Architecture** | Master commands like `reset`, `revert`, `staging` and version restoration processes. |
-| W2 | **Git Flow & Trunk-Based Development Strategies** | Compare different branching strategies and implement Pull Request (PR) process templates. |
-| W3 | **Team PR Process Design & Review Standards** | Write Code Review conditions and Merge Request specifications. |
-| W4 | **Git Conflict Management & Version Recovery Techniques** | Simulate multi-person collaboration scenarios, practice resolving version conflicts and restoring to specific versions. |
-| W5 | **CI/CD Process & Architecture Design** | Illustrate complete Build-Test-Deploy Pipeline. |
-| W6 | **CI/CD Selection Strategy (Platform + Architecture)** | Compare pros and cons of mainstream tools like GitHub Actions, Jenkins, GitLab CI. |
-| W7 | **Task vs Job Boundaries & Process Demarcation Design** | Learn atomic task decomposition principles, Retry patterns, understand differences between `jobs` and `steps` in CI tools. |
-| W8 | **GitHub Actions CI Process Implementation** | Write automated scripts for Linting, Unit Test, Code Coverage. |
-| W9 | **CD Process & Environment Deployment (Including Secrets Management)** | Design multi-environment (Matrix) deployment strategies and manage environment variables and secrets. |
-| W10 | **Build Caching & Job Conditional Control** | Learn to use `cache`, `workflow_run`, `matrix` for conditional branching and process control. |
-| W11 | **Pre-merge Verification & Diff Check Design** | Design Required Status Check and Snapshots testing. |
-| W12 | **Dockerfile & Image Build Strategy** | Learn Multi-stage builds, practice writing Dockerfile templates for different languages. |
-| W13 | **Docker Compose Integration Testing Process** | Simulate Redis + DB + App integration testing processes. |
-| W14 | **Image Push & Version Governance Strategy** | Write image Tag strategy, correspond Git tag and Docker tag. |
-| W15 | **Container Automated Deployment & Rollback Strategy Design** | Implement automated deployment on AWS ECS, GCP Cloud Run, Firebase Hosting platforms. |
-| W16 | **DevOps Metrics (DORA) & Cultural Governance** | Learn metrics like MTTR, Deploy Frequency, and map them to existing development processes. |
-| W17 | **Final Project: CI/CD Process Comprehensive Implementation** | Implement complete CI/CD process for personal or team projects, self-assess bottlenecks and adjustments. |
-| W18 | **Architecture Presentation & Flow Map Presentation** | Conduct technical presentations, showcase capability maps, and provide feedback aligned with career maturity. |
+| S1 | **Fundamentos de Git y Arquitectura de Commit** | Dominar comandos como `reset`, `revert`, `staging` y procesos de restauración de versiones. |
+| S2 | **Git Flow y Estrategias de Desarrollo Basadas en Tronco** | Comparar diferentes estrategias de ramificación e implementar plantillas de proceso de Pull Request (PR). |
+| S3 | **Diseño del Proceso de PR del Equipo y Estándares de Revisión** | Escribir condiciones de Revisión de Código y especificaciones de Solicitud de Fusión. |
+| S4 | **Gestión de Conflictos de Git y Técnicas de Recuperación de Versiones** | Simular escenarios de colaboración de varias personas, practicar la resolución de conflictos de versiones y la restauración a versiones específicas. |
+| S5 | **Proceso de CI/CD y Diseño de Arquitectura** | Ilustrar una tubería completa de Construcción-Prueba-Despliegue. |
+| S6 | **Estrategia de Selección de CI/CD (Plataforma + Arquitectura)** | Comparar pros y contras de herramientas convencionales como GitHub Actions, Jenkins, GitLab CI. |
+| S7 | **Límites de Tareas vs Trabajos y Diseño de Demarcación de Procesos** | Aprender los principios de descomposición de tareas atómicas, patrones de Reintento, comprender las diferencias entre `jobs` y `steps` en las herramientas de CI. |
+| S8 | **Implementación del Proceso de CI de GitHub Actions** | Escribir scripts automatizados para Linting, Pruebas Unitarias, Cobertura de Código. |
+| S9 | **Proceso de CD y Despliegue de Entorno (Incluida la Gestión de Secretos)** | Diseñar estrategias de despliegue en múltiples entornos (Matriz) y gestionar variables de entorno y secretos. |
+| S10 | **Caché de Construcción y Control Condicional de Trabajos** | Aprender a usar `cache`, `workflow_run`, `matrix` para ramificación condicional y control de procesos. |
+| S11 | **Verificación Previa a la Fusión y Diseño de Verificación de Diferencias** | Diseñar Verificación de Estado Requerido y pruebas de Instantáneas. |
+| S12 | **Dockerfile y Estrategia de Construcción de Imágenes** | Aprender construcciones de varias etapas, practicar la escritura de plantillas de Dockerfile para diferentes lenguajes. |
+| S13 | **Proceso de Pruebas de Integración con Docker Compose** | Simular procesos de pruebas de integración de Redis + BD + Aplicación. |
+| S14 | **Estrategia de Gobernanza de Versiones y Empuje de Imágenes** | Escribir una estrategia de etiquetado de imágenes, corresponder la etiqueta de Git y la etiqueta de Docker. |
+| S15 | **Diseño de Estrategias de Despliegue Automatizado de Contenedores y Reversión** | Implementar el despliegue automatizado en las plataformas AWS ECS, GCP Cloud Run, Firebase Hosting. |
+| S16 | **Métricas de DevOps (DORA) y Gobernanza Cultural** | Aprender métricas como MTTR, Frecuencia de Despliegue y mapearlas a los procesos de desarrollo existentes. |
+| S17 | **Proyecto Final: Implementación Integral del Proceso de CI/CD** | Implementar un proceso de CI/CD completo para proyectos personales o de equipo, autoevaluar cuellos de botella y ajustes. |
+| S18 | **Presentación de Arquitectura y Presentación de Mapa de Flujo** | Realizar presentaciones técnicas, mostrar mapas de capacidades y proporcionar comentarios alineados con la madurez profesional. |
 ```
 
 ```md
-# Cloud High-Availability Architecture Design & Practice
+# Diseño y Práctica de Arquitectura de Alta Disponibilidad en la Nube
 
-**From HA/DR to IaC, comprehensively master AWS and GCP enterprise-level cloud architecture design and implementation.**
-
----
-
-## Course Overview
-
-This course aims to cultivate engineers capable of independently designing and implementing enterprise-level AWS and GCP cloud architectures. The curriculum covers **High Availability (HA)**, **Disaster Recovery (DR)**, **Infrastructure as Code (IaC)**, automated deployment, cost optimization, and cloud security. The ultimate goal is to help learners possess the capability to obtain a cloud architect level certification (such as AWS SAA or GCP ACE).
+**Desde HA/DR hasta IaC, dominando de manera integral el diseño e implementación de arquitecturas de nube a nivel empresarial de AWS y GCP.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 20 weeks
-- **Recommended Credits**: 5 credits
-- **Estimated Time Investment**: 4-6 hours per week
-
-## Learning Objectives
-
-- Able to independently design cloud architecture diagrams with HA / DR and cost models.
-- Implement AWS / GCP core resources such as VPC, EC2, RDS, Lambda, GCS, Cloud Run, etc.
-- Master Terraform / CDK for modular architecture deployment.
-- Familiar with DevOps integration, Serverless design, and cross-platform integration thinking.
-- Complete preparation for at least one AWS SAA or GCP ACE certification.
-
-## Core Materials
-
-- Abbott, M. L., & Fisher, M. T. (2015). *The art of scalability* (2nd ed.). Addison-Wesley Professional.
-- Wilder, B. (2012). *Cloud architecture patterns*. O'Reilly Media.
-- Amazon Web Services. (n.d.). *AWS Well-Architected Framework*. https://aws.amazon.com/architecture/well-architected/
-- HashiCorp. (n.d.). *Terraform documentation*. https://www.terraform.io/docs
+Este curso tiene como objetivo cultivar ingenieros capaces de diseñar e implementar de forma independiente arquitecturas de nube a nivel empresarial de AWS y GCP. El plan de estudios cubre **Alta Disponibilidad (HA)**, **Recuperación ante Desastres (DR)**, **Infraestructura como Código (IaC)**, despliegue automatizado, optimización de costos y seguridad en la nube. El objetivo final es ayudar a los estudiantes a poseer la capacidad de obtener una certificación de nivel de arquitecto de la nube (como AWS SAA o GCP ACE).
 
 ---
 
-## Course Roadmap
+## Calendario de Aprendizaje
 
-| Week | Topic | Task Focus / Progress Check |
+- **Duración del Semestre**: 20 semanas
+- **Créditos Recomendados**: 5 créditos
+- **Inversión de Tiempo Estimada**: 4-6 horas por semana
+
+## Objetivos de Aprendizaje
+
+- Capaz de diseñar de forma independiente diagramas de arquitectura de la nube con modelos de HA / DR y de costos.
+- Implementar recursos centrales de AWS / GCP como VPC, EC2, RDS, Lambda, GCS, Cloud Run, etc.
+- Dominar Terraform / CDK para el despliegue de arquitecturas modulares.
+- Familiarizado con la integración de DevOps, el diseño sin servidor y el pensamiento de integración multiplataforma.
+- Completar la preparación para al menos una certificación AWS SAA o GCP ACE.
+
+## Materiales Centrales
+
+- Abbott, M. L., & Fisher, M. T. (2015). *El arte de la escalabilidad* (2ª ed.). Addison-Wesley Professional.
+- Wilder, B. (2012). *Patrones de arquitectura en la nube*. O'Reilly Media.
+- Amazon Web Services. (s.f.). *Marco de buena arquitectura de AWS*. https://aws.amazon.com/architecture/well-architected/
+- HashiCorp. (s.f.). *Documentación de Terraform*. https://www.terraform.io/docs
+
+---
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **Cloud Architecture Design Introduction & Enterprise Application Blueprint** | Compare AWS and GCP architectural philosophies and design principles. |
-| W2 | **Cloud Core Resource Design** | Compare EC2 vs GCE, S3 vs GCS, understand VPC core principles. |
-| W3 | **High Availability & Multi-Region Deployment Strategy** | Learn Auto Scaling, ALB/ELB, configure GCP Region/Zone. |
-| W4 | **Fault Tolerance & Disaster Recovery (DR) Design** | Understand RTO/RPO, design data synchronization and cross-region Failover strategies. |
-| W5 | **Database & Distributed Storage Design** | Compare HA design of services like RDS, DynamoDB, Spanner. |
-| W6 | **Monitoring & Observability Implementation** | Learn to use CloudWatch / Cloud Monitoring, map them to SLA. |
-| W7 | **IAM & Account Permission Architecture Governance** | Practice Organizations, Policies, Least Privilege security principles. |
-| W8 | **Hybrid Cloud & VPN Architecture** | Explore Direct Connect / Interconnect and hybrid cloud architecture cases. |
-| W9 | **Quiz Week** | Draw cloud architecture diagrams, explain high availability and fault tolerance strategies. |
-| W10 | **Cost Control & Resource Optimization Design** | Analyze RI / Savings Plan, learn to interpret Billing reports. |
-| W11 | **Basic IaC Implementation I (Terraform)** | Establish VPC / EC2 / S3 Terraform Module. |
-| W12 | **Advanced IaC Implementation II (CDK)** | Learn multi-environment deployment, State management, and resource dependency governance. |
-| W13 | **DevOps Automated Deployment Practice** | Integrate GitHub Actions / CodePipeline with Terraform. |
-| W14 | **Cloud Security Design & Security Protection** | Learn security tools like IAM Policies, WAF, Shield, KMS, Secrets Manager. |
-| W15 | **Serverless & Event-Driven Design** | Implement Lambda / Cloud Functions, Pub/Sub, EventBridge. |
-| W16 | **Project Implementation I: AWS** | Complete AWS platform architecture design, IaC, monitoring, and cost estimation. |
-| W17 | **Project Implementation II: GCP** | Complete GCP platform architecture design, IaC, DR/HA strategies, and cost estimation. |
-| W18 | **Multi-Cloud Integration & Migration Strategy** | Compare cross-platform architectures, explore Hybrid Design patterns. |
-| W19 | **Certification Preparation Week** | Conduct SAA / ACE mock exams, analyze question types, and strengthen knowledge. |
-| W20 | **Outcome Presentation** | Conduct proposal presentations, showcase architecture diagrams, cost models, and participate in Q&A practice. |
+| S1 | **Introducción al Diseño de Arquitectura en la Nube y Plan Maestro de Aplicaciones Empresariales** | Comparar las filosofías y principios de diseño arquitectónico de AWS y GCP. |
+| S2 | **Diseño de Recursos Centrales de la Nube** | Comparar EC2 vs GCE, S3 vs GCS, comprender los principios centrales de VPC. |
+| S3 | **Estrategia de Alta Disponibilidad y Despliegue Multi-Región** | Aprender Auto Scaling, ALB/ELB, configurar Región/Zona de GCP. |
+| S4 | **Diseño de Tolerancia a Fallos y Recuperación ante Desastres (DR)** | Comprender RTO/RPO, diseñar sincronización de datos y estrategias de Failover entre regiones. |
+| S5 | **Diseño de Bases de Datos y Almacenamiento Distribuido** | Comparar el diseño de HA de servicios como RDS, DynamoDB, Spanner. |
+| S6 | **Implementación de Monitoreo y Observabilidad** | Aprender a usar CloudWatch / Cloud Monitoring, mapearlos a SLA. |
+| S7 | **Gobernanza de Arquitectura de Permisos de IAM y Cuentas** | Practicar Organizaciones, Políticas, principios de seguridad de Mínimo Privilegio. |
+| S8 | **Arquitectura de Nube Híbrida y VPN** | Explorar Direct Connect / Interconnect y casos de arquitectura de nube híbrida. |
+| S9 | **Semana de Examen** | Dibujar diagramas de arquitectura de la nube, explicar estrategias de alta disponibilidad y tolerancia a fallos. |
+| S10 | **Diseño de Control de Costos y Optimización de Recursos** | Analizar RI / Savings Plan, aprender a interpretar informes de Facturación. |
+| S11 | **Implementación Básica de IaC I (Terraform)** | Establecer el Módulo de Terraform de VPC / EC2 / S3. |
+| S12 | **Implementación Avanzada de IaC II (CDK)** | Aprender el despliegue en múltiples entornos, la gestión de estados y la gobernanza de dependencias de recursos. |
+| S13 | **Práctica de Despliegue Automatizado de DevOps** | Integrar GitHub Actions / CodePipeline con Terraform. |
+| S14 | **Diseño de Seguridad en la Nube y Protección de Seguridad** | Aprender herramientas de seguridad como Políticas de IAM, WAF, Shield, KMS, Secrets Manager. |
+| S15 | **Diseño Sin Servidor e Impulsado por Eventos** | Implementar Lambda / Cloud Functions, Pub/Sub, EventBridge. |
+| S16 | **Implementación del Proyecto I: AWS** | Completar el diseño de la arquitectura de la plataforma AWS, IaC, monitoreo y estimación de costos. |
+| S17 | **Implementación del Proyecto II: GCP** | Completar el diseño de la arquitectura de la plataforma GCP, IaC, estrategias de DR/HA y estimación de costos. |
+| S18 | **Estrategia de Integración y Migración Multi-Nube** | Comparar arquitecturas multiplataforma, explorar patrones de Diseño Híbrido. |
+| S19 | **Semana de Preparación para la Certificación** | Realizar exámenes de simulación de SAA / ACE, analizar tipos de preguntas y fortalecer el conocimiento. |
+| S20 | **Presentación de Resultados** | Realizar presentaciones de propuestas, mostrar diagramas de arquitectura, modelos de costos y participar en la práctica de preguntas y respuestas. |
 ```
 
 ```md
-# System Observability & Error Tracking Design
+# Diseño de Observabilidad del Sistema y Seguimiento de Errores
 
-**From Metrics, Logs, Traces three pillars to incident drills, constructing complete observability solutions.**
-
----
-
-## Course Overview
-
-This course is specifically designed to provide systematic training for **Observability** design under high concurrency, multi-module, microservices architecture. The course will integrate governance strategies, implementation skills, and anomaly troubleshooting capabilities for **Metrics, Logs, Traces**, aimed at cultivating learners' architectural thinking and implementation capabilities to construct observability solutions from scratch.
+**Desde los tres pilares de Métricas, Registros, Trazas hasta los simulacros de incidentes, construyendo soluciones completas de observabilidad.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 4 credits
-
-## Learning Objectives
-
-- Able to design cross-module observability architecture with business semantics.
-- Establish traceability solutions from Trace propagation, Log design to reducing MTTR (Mean Time to Resolution).
-- Possess practical capabilities in Incident Drill, fault troubleshooting, and SLO (Service Level Objective) design.
-
-## Core Materials
-
-- Majors, C., Fong-Jones, L., & Miranda, G. (2022). *Observability engineering*. O'Reilly Media.
-- Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). *Site reliability engineering: How Google runs production systems*. O'Reilly Media.
-- Turnbull, J. (2018). *Monitoring with Prometheus*. Turnbull Press.
-- OpenTelemetry. (n.d.). *OpenTelemetry documentation*. https://opentelemetry.io/docs/
+Este curso está diseñado específicamente para proporcionar una formación sistemática para el diseño de **Observabilidad** bajo una arquitectura de alta concurrencia, multimodular y de microservicios. El curso integrará estrategias de gobernanza, habilidades de implementación y capacidades de solución de anomalías para **Métricas, Registros, Trazas**, con el objetivo de cultivar el pensamiento arquitectónico y las capacidades de implementación de los estudiantes para construir soluciones de observabilidad desde cero.
 
 ---
 
-## Course Roadmap
+## Calendario de Aprendizaje
 
-| Week | Topic | Learning Objectives & Task Check |
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 4 créditos
+
+## Objetivos de Aprendizaje
+
+- Capaz de diseñar una arquitectura de observabilidad intermodular con semántica de negocio.
+- Establecer soluciones de trazabilidad desde la propagación de Trazas, el diseño de Registros hasta la reducción del MTTR (Tiempo Medio de Resolución).
+- Poseer capacidades prácticas en Simulacros de Incidentes, solución de problemas de fallos y diseño de SLO (Objetivo de Nivel de Servicio).
+
+## Materiales Centrales
+
+- Majors, C., Fong-Jones, L., & Miranda, G. (2022). *Ingeniería de la observabilidad*. O'Reilly Media.
+- Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). *Ingeniería de confiabilidad del sitio: Cómo Google ejecuta los sistemas de producción*. O'Reilly Media.
+- Turnbull, J. (2018). *Monitoreo con Prometheus*. Turnbull Press.
+- OpenTelemetry. (s.f.). *Documentación de OpenTelemetry*. https://opentelemetry.io/docs/
+
+---
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Objetivos de Aprendizaje y Verificación de Tareas |
 | --- | --- | --- |
-| W1 | **Course Introduction & Importance of Observability** | Define differences between Observability and Monitoring, derive three-pillar model. |
-| W2 | **Observability Architecture Panorama & Modern Tool Chain** | Compare different suites like Grafana Stack, ELK, APM, Cloud-native. |
-| W3 | **Metrics Design: Indicator Classification & Measurement Strategy** | Build core indicators like Request Rate, Error Rate, Latency. |
-| W4 | **Logs Design: Semantics, Structuring & Searchability** | Implement standardized Log format including `trace_id`, `tag`, and business semantics. |
-| W5 | **Traces & Span: Process Chain in Distributed Systems** | Implement basic applications of OpenTelemetry or Jaeger. |
-| W6 | **Dashboards Design Principles & Data Readability** | Design business-oriented monitoring dashboards (using Grafana or Datadog). |
-| W7 | **Logs/Traces Integration & Root Cause Troubleshooting** | Conduct cross-service error simulation, submit troubleshooting process and records. |
-| W8 | **Quiz Week: Three Pillars Concepts & Implementation** | Verify learning outcomes through YAML definition, Log/Span correlation, fault interpretation tasks. |
-| W9 | **Alert Strategy Design: Threshold, Anomaly, Mute** | Write multi-level alert rules, design mechanisms to mitigate Alert Fatigue. |
-| W10 | **SLO / SLI / SLA: Business Semantic Observability Strategy** | Formulate measurable goals centered on user experience. |
-| W11 | **Trace ID Propagation Mechanism & HTTP Context Continuation** | Simulate cross-microservices Trace Context propagation strategies. |
-| W12 | **Serverless & Agentless Architecture Observation Solutions** | Explore observability solutions for Lambda, Cloud Function, Firebase. |
-| W13 | **Observability as Design Component** | From an observability perspective, design it as a necessary component in architecture diagrams. |
-| W14 | **Log Semantics & Event Template Governance** | Conduct event classification and context structure governance, establish Log Span Template. |
-| W15 | **Incident Drill Implementation & Preparation** | Simulate case: Request stagnation without Log, conduct troubleshooting drill. |
-| W16 | **Incident Drill Implementation & Report** | Write complete incident report, propose observability improvement suggestions. |
-| W17 | **Final Project Integration & Performance Analysis** | Integrate Logs, Metrics, Traces into an analysis report and observability strategy. |
-| W18 | **Architecture Presentation & Outcome Peer Review** | Conduct 10-minute system observation architecture design explanation, participate in outcome evaluation and self-assessment. |
+| S1 | **Introducción al Curso e Importancia de la Observabilidad** | Definir las diferencias entre Observabilidad y Monitoreo, derivar el modelo de tres pilares. |
+| S2 | **Panorama de la Arquitectura de Observabilidad y Cadena de Herramientas Modernas** | Comparar diferentes suites como Grafana Stack, ELK, APM, Nativas de la Nube. |
+| S3 | **Diseño de Métricas: Clasificación de Indicadores y Estrategia de Medición** | Construir indicadores centrales como Tasa de Solicitudes, Tasa de Errores, Latencia. |
+| S4 | **Diseño de Registros: Semántica, Estructuración y Capacidad de Búsqueda** | Implementar un formato de Registro estandarizado que incluya `trace_id`, `tag` y semántica de negocio. |
+| S5 | **Trazas y Spans: Cadena de Procesos en Sistemas Distribuidos** | Implementar aplicaciones básicas de OpenTelemetry o Jaeger. |
+| S6 | **Principios de Diseño de Paneles y Legibilidad de Datos** | Diseñar paneles de monitoreo orientados al negocio (usando Grafana o Datadog). |
+| S7 | **Integración de Registros/Trazas y Solución de Problemas de Causa Raíz** | Realizar simulación de errores entre servicios, enviar el proceso y los registros de solución de problemas. |
+| S8 | **Semana de Examen: Conceptos e Implementación de los Tres Pilares** | Verificar los resultados del aprendizaje a través de la definición de YAML, la correlación de Registros/Spans, las tareas de interpretación de fallos. |
+| S9 | **Diseño de Estrategias de Alerta: Umbral, Anomalía, Silencio** | Escribir reglas de alerta de varios niveles, diseñar mecanismos para mitigar la Fatiga de Alertas. |
+| S10 | **SLO / SLI / SLA: Estrategia de Observabilidad Semántica de Negocio** | Formular objetivos medibles centrados en la experiencia del usuario. |
+| S11 | **Mecanismo de Propagación de ID de Traza y Continuación del Contexto HTTP** | Simular estrategias de propagación de Contexto de Traza entre microservicios. |
+| S12 | **Soluciones de Observación de Arquitectura Sin Servidor y Sin Agente** | Explorar soluciones de observabilidad para Lambda, Cloud Function, Firebase. |
+| S13 | **La Observabilidad como Componente de Diseño** | Desde una perspectiva de observabilidad, diseñarla como un componente necesario en los diagramas de arquitectura. |
+| S14 | **Gobernanza de Semántica de Registros y Plantillas de Eventos** | Realizar la clasificación de eventos y la gobernanza de la estructura de contexto, establecer la Plantilla de Span de Registro. |
+| S15 | **Implementación y Preparación de Simulacros de Incidentes** | Simular un caso: Estancamiento de la solicitud sin Registro, realizar un simulacro de solución de problemas. |
+| S16 | **Implementación de Simulacros de Incidentes e Informe** | Escribir un informe completo del incidente, proponer sugerencias de mejora de la observabilidad. |
+| S17 | **Integración del Proyecto Final y Análisis de Rendimiento** | Integrar Registros, Métricas, Trazas en un informe de análisis y estrategia de observabilidad. |
+| S18 | **Presentación de Arquitectura y Revisión por Pares de Resultados** | Realizar una explicación de 10 minutos del diseño de la arquitectura de observación del sistema, participar en la evaluación de resultados y la autoevaluación. |
 
 ```
 
 ```md
-# Database Schema & Index Design
+# Diseño de Esquemas e Índices de Bases de Datos
 
-**From business modeling to AI data design, comprehensively master enterprise-level data engineering capabilities and performance optimization strategies.**
-
----
-
-## Course Overview
-
-This course is specifically designed for **Senior Fullstack Engineers (FSE)**, aimed at cultivating enterprise-level data engineering capabilities. The curriculum ranges from business modeling, query optimization, to AI-oriented data design, covering data consistency, performance, and maintainability challenges faced by enterprise-level transactions.
+**Desde el modelado de negocios hasta el diseño de datos de IA, dominando de manera integral las capacidades de ingeniería de datos a nivel empresarial y las estrategias de optimización del rendimiento.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 22 weeks (including holidays and preparatory weeks)
-- **Recommended Credits**: 5 credits
-
-## Learning Objectives
-
-- Able to independently design scalable, highly available data table structures and index strategies.
-- Able to address issues like multi-table writes, high concurrency, time series data, and OLAP/OLTP hybrid workload.
-- Combine business modeling thinking to design data structures with AI training/prediction capabilities.
-
-## Core Materials
-
-- Kleppmann, M. (2017). *Designing data-intensive applications*. O'Reilly Media.
-- Schwartz, B., Zaitsev, P., & Tkachenko, V. (2012). *High performance MySQL* (3rd ed.). O'Reilly Media.
-- Petrov, A. (2019). *Database internals: A deep dive into how distributed data systems work*. O'Reilly Media.
-- Newman, S. (2021). *Building microservices* (2nd ed.). O'Reilly Media.
+Este curso está diseñado específicamente para **Ingenieros Fullstack Senior (FSE)**, con el objetivo de cultivar capacidades de ingeniería de datos a nivel empresarial. El plan de estudios abarca desde el modelado de negocios, la optimización de consultas, hasta el diseño de datos orientado a la IA, cubriendo los desafíos de coherencia de datos, rendimiento y mantenibilidad que enfrentan las transacciones a nivel empresarial.
 
 ---
 
-## Course Roadmap
+## Calendario de Aprendizaje
 
-| Week | Topic | Task Focus / Progress Check |
+- **Duración del Semestre**: 22 semanas (incluyendo vacaciones y semanas de preparación)
+- **Créditos Recomendados**: 5 créditos
+
+## Objetivos de Aprendizaje
+
+- Capaz de diseñar de forma independiente estructuras de tablas de datos escalables y de alta disponibilidad y estrategias de índices.
+- Capaz de abordar problemas como escrituras en múltiples tablas, alta concurrencia, datos de series temporales y cargas de trabajo híbridas OLAP/OLTP.
+- Combinar el pensamiento de modelado de negocios para diseñar estructuras de datos con capacidades de entrenamiento/predicción de IA.
+
+## Materiales Centrales
+
+- Kleppmann, M. (2017). *Diseñando aplicaciones intensivas en datos*. O'Reilly Media.
+- Schwartz, B., Zaitsev, P., & Tkachenko, V. (2012). *MySQL de alto rendimiento* (3ª ed.). O'Reilly Media.
+- Petrov, A. (2019). *Internos de la base de datos: Una inmersión profunda en cómo funcionan los sistemas de datos distribuidos*. O'Reilly Media.
+- Newman, S. (2021). *Construyendo microservicios* (2ª ed.). O'Reilly Media.
+
+---
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **Data Modeling Core & Course Overview** | Establish perspective from business requirements to data model, understand table structure design panorama. |
-| W2 | **Normalization & Denormalization Strategies** | From 1NF–3NF to Schema optimization, learn data table decomposition decisions. |
-| W3 | **Business Process → Aggregate Modeling** | Combined with DDD thinking, set aggregate root and data consistency boundaries. |
-| W4 | **Table & Object Design Philosophy** | Learn naming, type selection, context separation, and scalability boundary considerations. |
-| W5 | **Transaction Modeling & Consistency Solutions** | Explore ACID, Eventual Consistency, and boundary notation methods. |
-| W6 | **Index Design I** | Learn B-Tree, Hash, Bitmap Index mechanisms and application scenarios. |
-| W7 | **Index Design II** | Implement composite index, Partial Index, Covering Index selection. |
-| W8 | **Query Performance Optimization** | Interpret Explain Plan, track slow queries, learn common anti-patterns. |
-| W9 | **Partitioning / Sharding Design Strategy** | Learn Partition Key selection, horizontal/vertical splitting, and data hotspot handling. |
-| W10 | **Time Series Data Design Strategy** | Explore TTL, event stream storage, historical data landing, and archiving architecture. |
-| W11 | **Data Migration & Version Governance** | Learn Schema Migration strategy and Version Table design. |
-| W12 | **Query & Data Transformation Governance** | Design ETL/ELT dedicated Schema and intermediate layer transformation strategies. |
-| W13 | **SQL vs NoSQL Fusion** | Explore Mongo, Redis structure design and integration architecture. |
-| W14 | **Hot/Cold Data Layering Design** | Design Hot/Cold Path, map caching strategies. |
-| W15 | **Multi-Table Writes & High Concurrency Handling** | Using stock trading as example, implement compensation strategies and multi-table consistency. |
-| W16 | **Outbox & Event Consistency Patterns** | Design asynchronous data landing and message delivery consistency solutions. |
-| W17 | **AI Data Design & Feature Store Strategy** | Learn Feature Store, labeling structure, ETL data version management. |
-| W18 | **Table Structure Refactoring & Technical Debt Cleanup** | Explore historical data migration, compatibility query design, and refactoring methodology. |
-| W19 | **Midterm Summary & Project Topic Assignment** | Confirm Schema design direction, conduct team grouping. |
-| W20 | **Business Scenario Modeling Practice** | Practical ticketing system, event registration system data modeling. |
-| W21 | **Holiday Week (Reading Week)** | Study DIA Chapters 10-12 and related materials on Michelangelo/FeatureStore. |
-| W22 | **Data Consistency Verification & Testing** | Learn contract verification, data snapshot verification, and synchronization simulation. |
-| W23 | **Final Preparation I** | Complete Schema + Index design, write usage scenario documentation. |
-| W24 | **Final Preparation II** | Conduct stress test analysis, cache strategy design, monitoring, and report generation. |
-| W25 | **Graduation Presentation Week** | Conduct project presentation, peer review, summary, and feedback. |
+| S1 | **Modelado de Datos Central y Resumen del Curso** | Establecer la perspectiva desde los requisitos de negocio hasta el modelo de datos, comprender el panorama del diseño de la estructura de tablas. |
+| S2 | **Estrategias de Normalización y Desnormalización** | Desde 1FN–3FN hasta la optimización de Esquemas, aprender las decisiones de descomposición de tablas de datos. |
+| S3 | **Proceso de Negocio → Modelado de Agregados** | Combinado con el pensamiento de DDD, establecer la raíz del agregado y los límites de coherencia de datos. |
+| S4 | **Filosofía de Diseño de Tablas y Objetos** | Aprender la nomenclatura, la selección de tipos, la separación de contextos y las consideraciones de los límites de escalabilidad. |
+| S5 | **Modelado de Transacciones y Soluciones de Coherencia** | Explorar ACID, Coherencia Eventual y métodos de notación de límites. |
+| S6 | **Diseño de Índices I** | Aprender los mecanismos de B-Tree, Hash, Bitmap Index y sus escenarios de aplicación. |
+| S7 | **Diseño de Índices II** | Implementar la selección de índices compuestos, Índices Parciales, Índices de Cobertura. |
+| S8 | **Optimización del Rendimiento de las Consultas** | Interpretar el Plan de Explicación, rastrear consultas lentas, aprender antipatrones comunes. |
+| S9 | **Estrategia de Diseño de Particionamiento / Fragmentación** | Aprender la selección de la Clave de Partición, la división horizontal/vertical y el manejo de puntos calientes de datos. |
+| S10 | **Estrategia de Diseño de Datos de Series Temporales** | Explorar TTL, almacenamiento de flujos de eventos, aterrizaje de datos históricos y arquitectura de archivo. |
+| S11 | **Migración de Datos y Gobernanza de Versiones** | Aprender la estrategia de Migración de Esquemas y el diseño de la Tabla de Versiones. |
+| S12 | **Gobernanza de Consultas y Transformación de Datos** | Diseñar un Esquema dedicado para ETL/ELT y estrategias de transformación de la capa intermedia. |
+| S13 | **Fusión de SQL vs NoSQL** | Explorar el diseño de estructuras de Mongo, Redis y la arquitectura de integración. |
+| S14 | **Diseño de Capas de Datos Calientes/Frías** | Diseñar la Ruta Caliente/Fría, mapear las estrategias de caché. |
+| S15 | **Manejo de Escrituras en Múltiples Tablas y Alta Concurrencia** | Usando el comercio de acciones como ejemplo, implementar estrategias de compensación y coherencia de múltiples tablas. |
+| S16 | **Patrones de Coherencia de Outbox y Eventos** | Diseñar el aterrizaje de datos asíncrono y soluciones de coherencia de entrega de mensajes. |
+| S17 | **Estrategia de Diseño de Datos de IA y Almacén de Características** | Aprender sobre el Almacén de Características, la estructura de etiquetado, la gestión de versiones de datos de ETL. |
+| S18 | **Refactorización de la Estructura de Tablas y Limpieza de la Deuda Técnica** | Explorar la migración de datos históricos, el diseño de consultas de compatibilidad y la metodología de refactorización. |
+| S19 | **Resumen de Mitad de Trimestre y Asignación de Temas de Proyecto** | Confirmar la dirección del diseño de Esquema, realizar la agrupación de equipos. |
+| S20 | **Práctica de Modelado de Escenarios de Negocio** | Modelado práctico de datos de sistemas de venta de entradas, sistemas de registro de eventos. |
+| S21 | **Semana de Vacaciones (Semana de Lectura)** | Estudiar los Capítulos 10-12 de DIA y materiales relacionados sobre Michelangelo/FeatureStore. |
+| S22 | **Verificación y Pruebas de Coherencia de Datos** | Aprender la verificación de contratos, la verificación de instantáneas de datos y la simulación de sincronización. |
+| S23 | **Preparación Final I** | Completar el diseño de Esquema + Índice, escribir la documentación del escenario de uso. |
+| S24 | **Preparación Final II** | Realizar análisis de pruebas de estrés, diseño de estrategias de caché, monitoreo y generación de informes. |
+| S25 | **Semana de Presentación de Graduación** | Realizar la presentación del proyecto, la revisión por pares, el resumen y los comentarios. |
 ```
 
 ```md
-# Complex State Management Strategies
+# Estrategias Complejas de Gestión de Estados
 
-**From Redux/NgRx architecture to frontend-backend synchronization, systematically construct enterprise-level state management capabilities.**
-
----
-
-## Course Overview
-
-This course is specifically designed for **senior frontend and full-stack developers**, aimed at systematically constructing engineering capabilities and architectural design capabilities for complex state management. The course will address practical challenges in enterprise-level business systems, cross-role collaboration scenarios, and frontend-backend synchronization consistency.
+**Desde la arquitectura Redux/NgRx hasta la sincronización frontend-backend, construyendo sistemáticamente capacidades de gestión de estados a nivel empresarial.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18-week intensive training course
-- **Recommended Credits**: 4 credits
-
-## Learning Objectives
-
-- Master Redux and NgRx architectural principles and state flow design.
-- Able to independently design state management solutions meeting large system requirements.
-- Understand and implement frontend-backend consistency strategies like Optimistic Update, Server Sync, etc.
-
-## Core Materials
-
-- Redux Team. (n.d.). *Redux essentials*. https://redux.js.org/tutorials/essentials/part-1-overview-concepts
-- NgRx Team. (n.d.). *NgRx documentation*. https://ngrx.io/docs
-- Accomazzo, A., Murray, N., & Lerner, A. (2017). *Fullstack React: The complete guide to ReactJS and friends*. Fullstack.io.
-- Angular Team. (n.d.). *Angular documentation*. https://angular.io/docs
+Este curso está diseñado específicamente para **desarrolladores senior de frontend y full-stack**, con el objetivo de construir sistemáticamente capacidades de ingeniería y diseño arquitectónico para la gestión de estados complejos. El curso abordará desafíos prácticos en sistemas de negocio a nivel empresarial, escenarios de colaboración entre roles y la consistencia de la sincronización frontend-backend.
 
 ---
 
-## Course Roadmap
+## Calendario de Aprendizaje
 
-| Week | Topic | Key Task / Check |
+- **Duración del Semestre**: curso intensivo de 18 semanas
+- **Créditos Recomendados**: 4 créditos
+
+## Objetivos de Aprendizaje
+
+- Dominar los principios arquitectónicos de Redux y NgRx y el diseño de flujo de estados.
+- Capaz de diseñar de forma independiente soluciones de gestión de estados que cumplan con los requisitos de grandes sistemas.
+- Comprender e implementar estrategias de consistencia frontend-backend como Actualización Optimista, Sincronización del Servidor, etc.
+
+## Materiales Centrales
+
+- Equipo de Redux. (s.f.). *Fundamentos de Redux*. https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+- Equipo de NgRx. (s.f.). *Documentación de NgRx*. https://ngrx.io/docs
+- Accomazzo, A., Murray, N., & Lerner, A. (2017). *React fullstack: La guía completa de ReactJS y sus amigos*. Fullstack.io.
+- Equipo de Angular. (s.f.). *Documentación de Angular*. https://angular.io/docs
+
+---
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Tarea Clave / Verificación |
 | --- | --- | --- |
-| W1 | **Course Introduction: Nature of State & System Positioning** | Deconstruct UI → Data → Logic → State relationship model. |
-| W2 | **Redux & NgRx Thought Origin & Design Philosophy** | Analyze Redux and NgRx architecture design diagrams. |
-| W3 | **Redux Architecture & RTK Implementation Essentials** | Establish Store, Slice, Selector, Middleware. |
-| W4 | **NgRx Architecture & Store Module Design** | Construct Action, Reducer, Selector, Effect. |
-| W5 | **Component Store & ViewModel Model** | Explore NgRx lightweight alternatives, implement component decoupling. |
-| W6 | **Form & Complex Input Scenario Management** | Manage FormGroup state including `dirty`, `valid`, `state sync`. |
-| W7 | **Multi-Module State Partitioning & Boundary Governance** | Learn Bounded Context and Slice partitioning strategies. |
-| W8 | **Quiz Week: State Sync Strategy & Debug Flow Implementation** | Conduct problem simulation and DevTool troubleshooting drill. |
-| W9 | **Multi-Role UI State Distribution (Role/Permission/View)** | Explore Contextual State and shared/isolated design. |
-| W10 | **Business-Driven State Machine Construction (e.g., Order/Task Flow)** | Build state diagrams and management strategies based on business processes. |
-| W11 | **API Response Sync Strategy (CRUD / Debounce / Loading)** | Implement `async pipe`, `entity adapter`, `loading indicator`. |
-| W12 | **Optimistic UI & Offline State Handling Strategy** | Design Rollback, Patch, Staging State. |
-| W13 | **Cross-Device & Real-Time Collaboration Scenarios (Socket / SSE)** | Design observable state, synchronization flow diagrams, and error recovery strategies. |
-| W14 | **NgRx DevTools / Redux DevTools Deep Application** | Implement custom Middleware or Meta-reducer. |
-| W15 | **State & Performance: Memoization & Virtual State** | Learn Selector Memoization, Lazy Loading, Store segmented loading techniques. |
-| W16 | **Final Drill Week: State Management Architecture Design & Simulation Proposal** | Produce architecture diagrams, task flow design, and optimization specification documents. |
-| W17 | **Project Week: Implement Medium-Sized System (Complex State & Frontend-Backend Sync)** | Evaluation metrics: integration, maintainability, decoupling capability. |
-| W18 | **Outcome Presentation Week: State Management Design Competition & Peer Review** | Conduct final outcome presentation and peer review. |
+| S1 | **Introducción al Curso: Naturaleza del Estado y Posicionamiento del Sistema** | Deconstruir el modelo de relación UI → Datos → Lógica → Estado. |
+| S2 | **Origen del Pensamiento y Filosofía de Diseño de Redux y NgRx** | Analizar los diagramas de diseño de la arquitectura de Redux y NgRx. |
+| S3 | **Arquitectura de Redux y Fundamentos de Implementación de RTK** | Establecer Store, Slice, Selector, Middleware. |
+| S4 | **Arquitectura de NgRx y Diseño de Módulos de Store** | Construir Action, Reducer, Selector, Effect. |
+| S5 | **Component Store y Modelo de ViewModel** | Explorar alternativas ligeras a NgRx, implementar el desacoplamiento de componentes. |
+| S6 | **Gestión de Escenarios de Formularios y Entradas Complejas** | Gestionar el estado de FormGroup incluyendo `dirty`, `valid`, `sincronización de estado`. |
+| S7 | **Partición de Estados Multi-módulo y Gobernanza de Límites** | Aprender estrategias de partición de Contexto Delimitado y Slice. |
+| S8 | **Semana de Examen: Estrategia de Sincronización de Estados e Implementación del Flujo de Depuración** | Realizar simulación de problemas y simulacro de solución de problemas con DevTool. |
+| S9 | **Distribución de Estados de la Interfaz de Usuario Multi-rol (Rol/Permiso/Vista)** | Explorar el Estado Contextual y el diseño compartido/aislado. |
+| S10 | **Construcción de Máquinas de Estado Impulsadas por el Negocio (por ejemplo, Flujo de Pedidos/Tareas)** | Construir diagramas de estado y estrategias de gestión basadas en procesos de negocio. |
+| S11 | **Estrategia de Sincronización de Respuestas de API (CRUD / Debounce / Carga)** | Implementar `async pipe`, `entity adapter`, `loading indicator`. |
+| S12 | **Estrategia de Manejo de Estados Offline y UI Optimista** | Diseñar Rollback, Patch, Staging State. |
+| S13 | **Escenarios de Colaboración en Tiempo Real y Multi-dispositivo (Socket / SSE)** | Diseñar estado observable, diagramas de flujo de sincronización y estrategias de recuperación de errores. |
+| S14 | **Aplicación Profunda de NgRx DevTools / Redux DevTools** | Implementar Middleware personalizado o Meta-reducer. |
+| S15 | **Estado y Rendimiento: Memoización y Estado Virtual** | Aprender técnicas de Memoización de Selectores, Carga Perezosa, carga segmentada de Store. |
+| S16 | **Semana de Simulacro Final: Diseño de Arquitectura de Gestión de Estados y Propuesta de Simulación** | Producir diagramas de arquitectura, diseño de flujo de tareas y documentos de especificación de optimización. |
+| S17 | **Semana de Proyecto: Implementar un Sistema de Tamaño Mediano (Estado Complejo y Sincronización Frontend-Backend)** | Métricas de evaluación: capacidad de integración, mantenibilidad, desacoplamiento. |
+| S18 | **Semana de Presentación de Resultados: Concurso de Diseño de Gestión de Estados y Revisión por Pares** | Realizar la presentación final de resultados y la revisión por pares. |
 ```
 
 ```md
-# UX Flow & Pain Point Identification
+# Flujo de UX e Identificación de Puntos de Dolor
 
-**From user requirements to process optimization, cultivating user-centered experience design and pain point insight capabilities.**
-
----
-
-## Course Overview
-
-This course aims to strengthen the "**user-centered**" process perspective in product development. The curriculum covers experience design strategies starting from user requirements, combining UX Flow analysis, user research, pain point insight, and iterative optimization techniques. This course is suitable for Product Managers (PM), UX Designers, and Full-stack Engineers.
+**Desde los requisitos del usuario hasta la optimización de procesos, cultivando capacidades de diseño de experiencia centradas en el usuario y de conocimiento de los puntos de dolor.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 4 credits
-- **Estimated Time Investment**: 3-5 hours per week
-
-## Learning Objectives
-
-- Familiar with UX Flow analysis and visualization design.
-- Able to identify pain points for specific user scenarios and propose feasible improvement solutions.
-- Able to independently design user flows, flow diagrams, and interaction models.
-- Able to collaborate with design and technical teams to implement requirement validation and user testing.
-
-## Core Materials
-
-- Krug, S. (2014). *Don't make me think, revisited: A common sense approach to web usability* (3rd ed.). New Riders.
-- Norman, D. A. (2013). *The design of everyday things: Revised and expanded edition*. Basic Books.
-- Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing great products with agile teams* (2nd ed.). O'Reilly Media.
-- Nielsen Norman Group. (n.d.). *UX research methods*. https://www.nngroup.com/articles/
+Este curso tiene como objetivo fortalecer la perspectiva del proceso "**centrado en el usuario**" en el desarrollo de productos. El plan de estudios cubre estrategias de diseño de experiencia a partir de los requisitos del usuario, combinando análisis de Flujo de UX, investigación de usuarios, conocimiento de los puntos de dolor y técnicas de optimización iterativa. Este curso es adecuado para Gerentes de Producto (PM), Diseñadores de UX e Ingenieros Full-stack.
 
 ---
 
-## Course Roadmap
+## Calendario de Aprendizaje
 
-| Week | Topic | Task Focus / Progress Check |
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 4 créditos
+- **Inversión de Tiempo Estimada**: 3-5 horas por semana
+
+## Objetivos de Aprendizaje
+
+- Familiarizado con el análisis y el diseño de visualización de Flujo de UX.
+- Capaz de identificar puntos de dolor para escenarios de usuario específicos y proponer soluciones de mejora factibles.
+- Capaz de diseñar de forma independiente flujos de usuario, diagramas de flujo y modelos de interacción.
+- Capaz de colaborar con equipos de diseño y técnicos para implementar la validación de requisitos y las pruebas de usuario.
+
+## Materiales Centrales
+
+- Krug, S. (2014). *No me hagas pensar, revisitado: Un enfoque de sentido común para la usabilidad web* (3ª ed.). New Riders.
+- Norman, D. A. (2013). *El diseño de las cosas cotidianas: Edición revisada y ampliada*. Basic Books.
+- Gothelf, J., & Seiden, J. (2016). *Lean UX: Diseñando grandes productos con equipos ágiles* (2ª ed.). O'Reilly Media.
+- Nielsen Norman Group. (s.f.). *Métodos de investigación de UX*. https://www.nngroup.com/articles/
+
+---
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **Understanding UX Flow** | Understand differences between UX Flow and business processes. |
-| W2 | **User-Oriented Design Perspective** | Learn Don Norman's user-centered design model. |
-| W3 | **Usage Scenario Analysis (Scenario Mapping)** | Build task flows, propose pain point hypotheses. |
-| W4 | **User Flow Diagram Implementation (Task Flow)** | Establish first version of UX Flow diagram. |
-| W5 | **User Interview Methods & Techniques** | Design interview question list and execution process. |
-| W6 | **User Behavior Observation (Usability Test)** | Write observation records and analysis reports. |
-| W7 | **Pain Point Insight & JTBD (Jobs to be Done)** | Establish problem statements and user behavior motivation diagrams. |
-| W8 | **UX Flow Optimization Model (Flow Efficiency)** | Visualize and optimize rework paths and bottlenecks. |
-| W9 | **Quiz Week: UX Flow Implementation & Feedback** | Create task flow diagrams, explain pain point hypotheses. |
-| W10 | **Figma / Whimsical UX Flow Implementation** | Team collaboratively build interactive flow diagrams. |
-| W11 | **User Stories & Flow Integration** | Establish correspondence between UX Flow and User Story. |
-| W12 | **A/B Test & UX Experiment Design** | Write test hypotheses and experimental variable configurations. |
-| W13 | **Usability Test Analysis & Metrics (SUS / TCR)** | Analyze pain point data, introduce optimization suggestions. |
-| W14 | **UX Flow & Development Logic Correspondence** | Interface with development team on logic points and parameter passing nodes. |
-| W15 | **Project Integration: Establish Complete Flow Design Case** | From user interviews to pain point analysis, finally complete flow design. |
-| W16 | **Outcome Presentation & Feedback Preparation** | Write user requirement correspondence diagram and recommendation presentation. |
-| W17 | **Project Presentation (Rehearsal)** | Present UX Flow and pain point optimization plan. |
-| W18 | **Peer Feedback & Course Summary** | Conduct learning growth reflection, peer review, and self-assessment. |
+| S1 | **Entendiendo el Flujo de UX** | Comprender las diferencias entre el Flujo de UX y los procesos de negocio. |
+| S2 | **Perspectiva de Diseño Orientada al Usuario** | Aprender el modelo de diseño centrado en el usuario de Don Norman. |
+| S3 | **Análisis de Escenarios de Uso (Mapeo de Escenarios)** | Construir flujos de tareas, proponer hipótesis de puntos de dolor. |
+| S4 | **Implementación de Diagramas de Flujo de Usuario (Flujo de Tareas)** | Establecer la primera versión del diagrama de Flujo de UX. |
+| S5 | **Métodos y Técnicas de Entrevista a Usuarios** | Diseñar una lista de preguntas de entrevista y un proceso de ejecución. |
+| S6 | **Observación del Comportamiento del Usuario (Prueba de Usabilidad)** | Escribir registros de observación e informes de análisis. |
+| S7 | **Conocimiento del Punto de Dolor y JTBD (Jobs to be Done)** | Establecer declaraciones de problemas y diagramas de motivación del comportamiento del usuario. |
+| S8 | **Modelo de Optimización del Flujo de UX (Eficiencia del Flujo)** | Visualizar y optimizar rutas de retrabajo y cuellos de botella. |
+| S9 | **Semana de Examen: Implementación del Flujo de UX y Retroalimentación** | Crear diagramas de flujo de tareas, explicar hipótesis de puntos de dolor. |
+| S10 | **Implementación del Flujo de UX con Figma / Whimsical** | Construir en equipo diagramas de flujo interactivos. |
+| S11 | **Integración de Historias de Usuario y Flujo** | Establecer la correspondencia entre el Flujo de UX y la Historia de Usuario. |
+| S12 | **Prueba A/B y Diseño de Experimentos de UX** | Escribir hipótesis de prueba y configuraciones de variables experimentales. |
+| S13 | **Análisis y Métricas de Pruebas de Usabilidad (SUS / TCR)** | Analizar datos de puntos de dolor, introducir sugerencias de optimización. |
+| S14 | **Correspondencia del Flujo de UX y la Lógica de Desarrollo** | Interactuar con el equipo de desarrollo sobre los puntos lógicos y los nodos de paso de parámetros. |
+| S15 | **Integración del Proyecto: Establecer un Caso de Diseño de Flujo Completo** | Desde entrevistas con usuarios hasta análisis de puntos de dolor, finalmente completar el diseño del flujo. |
+| S16 | **Preparación de la Presentación de Resultados** | Escribir un diagrama de correspondencia de requisitos de usuario y una presentación de recomendaciones. |
+| S17 | **Presentación del Proyecto (Ensayo)** | Presentar el Flujo de UX y el plan de optimización de puntos de dolor. |
+| S18 | **Retroalimentación de Pares y Resumen del Curso** | Realizar una reflexión sobre el crecimiento del aprendizaje, una revisión por pares y una autoevaluación. |
 ```
 
 ```md
-# A/B Testing & Growth Analytics
+# Pruebas A/B y Análisis de Crecimiento
 
-**From hypothesis construction to growth models, cultivating data-driven decision-making and product experimentation design capabilities.**
-
----
-
-## Course Overview
-
-This course aims to cultivate Product Managers and Engineers with **data-driven decision-making capabilities**. Learners will learn from hypothesis construction, experiment design, result interpretation to growth strategy planning, independently leading cross-departmental experiment processes and growth model design to achieve product effectiveness optimization.
+**Desde la construcción de hipótesis hasta los modelos de crecimiento, cultivando capacidades de toma de decisiones basadas en datos y de diseño de experimentación de productos.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 4 credits
-- **Estimated Time Investment**: 3-5 hours per week
+Este curso tiene como objetivo cultivar Gerentes de Producto e Ingenieros con **capacidades de toma de decisiones basadas en datos**. Los estudiantes aprenderán desde la construcción de hipótesis, el diseño de experimentos, la interpretación de resultados hasta la planificación de estrategias de crecimiento, liderando de forma independiente procesos de experimentación interdepartamentales y el diseño de modelos de crecimiento para lograr la optimización de la efectividad del producto.
 
-## Learning Objectives
+---
 
-- Able to independently design and execute product experiments, correctly interpret statistical significance.
-- Familiar with A/B testing hypothesis construction, sample calculation, and analysis report writing.
-- Able to design and derive Growth Loop, connecting strategic experiment cycles.
-- Familiar with analysis tools like Amplitude, GA4, Mixpanel, able to implement dashboards.
-- Able to report outcomes in management language, possess understanding of experiment design philosophy and ethics.
+## Calendario de Aprendizaje
 
-## Core Materials
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 4 créditos
+- **Inversión de Tiempo Estimada**: 3-5 horas por semana
 
-- Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy online controlled experiments: A practical guide to A/B testing*. Cambridge University Press.
-- Croll, A., & Yoskovitz, B. (2013). *Lean analytics: Use data to build a better startup faster*. O'Reilly Media.
-- Ellis, S., & Brown, M. (2017). *Hacking growth: How today's fastest-growing companies drive breakout success*. Crown Business.
-- Thomke, S. H. (2020). *Experimentation works: The surprising power of business experiments*. Harvard Business Review Press.
+## Objetivos de Aprendizaje
 
-## Course Roadmap
+- Capaz de diseñar y ejecutar de forma independiente experimentos de productos, interpretar correctamente la significancia estadística.
+- Familiarizado con la construcción de hipótesis de pruebas A/B, el cálculo de muestras y la redacción de informes de análisis.
+- Capaz de diseñar y derivar un Bucle de Crecimiento, conectando ciclos de experimentación estratégica.
+- Familiarizado con herramientas de análisis como Amplitude, GA4, Mixpanel, capaz de implementar paneles de control.
+- Capaz de informar los resultados en lenguaje de gestión, poseer una comprensión de la filosofía y la ética del diseño de experimentos.
 
-| Week | Topic | Task Focus / Progress Check |
+## Materiales Centrales
+
+- Kohavi, R., Tang, D., & Xu, Y. (2020). *Experimentos controlados en línea confiables: Una guía práctica para las pruebas A/B*. Cambridge University Press.
+- Croll, A., & Yoskovitz, B. (2013). *Análisis Lean: Usa los datos para construir una startup mejor más rápido*. O'Reilly Media.
+- Ellis, S., & Brown, M. (2017). *Hacking growth: Cómo las empresas de más rápido crecimiento de hoy impulsan un éxito arrollador*. Crown Business.
+- Thomke, S. H. (2020). *La experimentación funciona: El sorprendente poder de los experimentos de negocio*. Harvard Business Review Press.
+
+## Hoja de Ruta del Curso
+
+| Semana | Tema | Foco de la Tarea / Verificación de Progreso |
 | --- | --- | --- |
-| W1 | **What is A/B Testing & Growth?** | Through case introduction, clarify distinction between Growth and hypothesis testing. |
-| W2 | **Growth Metrics & Frameworks** | Design metrics like HEART, AARRR, North Star. |
-| W3 | **Hypothesis Construction Philosophy & Verification Model** | Write hypotheses with business logic and verification logic. |
-| W4 | **Sample Size Calculation & Significance Principles** | Learn Power Analysis, confidence intervals, and statistical error types. |
-| W5 | **Common Mistakes & Avoiding p-hacking** | Clarify test pitfalls and statistical myths. |
-| W6 | **Experiment Design Process & Ethics** | Design control groups, control variables, assess potential experiment impact. |
-| W7 | **Test Case Scenario Design Philosophy** | Design appropriate questions, relate to business goals, reduce false positives. |
-| W8 | **Growth Loop Strategy Derivation** | From single A/B test, build cyclical optimization models. |
-| W9 | **Quiz Week** | Conduct written test on hypothesis writing, sample calculation, experiment process design. |
-| W10 | **Analysis Tool Implementation I (Amplitude)** | Build Funnel and conversion rate dashboards. |
-| W11 | **Analysis Tool Implementation II (GA4)** | Set up event tracking and goal conversion. |
-| W12 | **Tool Integration & Data Trustworthiness** | Ensure tracking consistency, UTM tag correctness, and data cleansing. |
-| W13 | **Experiment Data Analysis & Interpretation Report** | Learn visualization diagrams for means, medians, intervals, proportion conversions. |
-| W14 | **Multivariate Testing & Stacked Experiment Design** | Explore MVT, A/B/n testing, and continuous experiment design considerations. |
-| W15 | **Cross-Departmental Communication & Reporting Skills** | Present conversion rates, growth models, and recommendations in management language. |
-| W16 | **Simulation Implementation I** | Self-select experiment topic, write complete test case and verification design documentation. |
-| W17 | **Simulation Implementation II** | Propose data analysis report and growth strategy recommendation. |
-| W18 | **Outcome Presentation** | Conduct presentation, outcome proposal, and peer feedback. |
+| S1 | **¿Qué son las Pruebas A/B y el Crecimiento?** | A través de la introducción de casos, aclarar la distinción entre Crecimiento y pruebas de hipótesis. |
+| S2 | **Métricas y Marcos de Crecimiento** | Diseñar métricas como HEART, AARRR, Estrella del Norte. |
+| S3 | **Filosofía de Construcción de Hipótesis y Modelo de Verificación** | Escribir hipótesis con lógica de negocio y lógica de verificación. |
+| S4 | **Cálculo del Tamaño de la Muestra y Principios de Significancia** | Aprender Análisis de Potencia, intervalos de confianza y tipos de errores estadísticos. |
+| S5 | **Errores Comunes y Evitar el p-hacking** | Aclarar las trampas de las pruebas y los mitos estadísticos. |
+| S6 | **Proceso y Ética del Diseño de Experimentos** | Diseñar grupos de control, variables de control, evaluar el impacto potencial del experimento. |
+| S7 | **Filosofía de Diseño de Escenarios de Casos de Prueba** | Diseñar preguntas apropiadas, relacionarlas con los objetivos de negocio, reducir los falsos positivos. |
+| S8 | **Derivación de la Estrategia del Bucle de Crecimiento** | A partir de una sola prueba A/B, construir modelos de optimización cíclica. |
+| S9 | **Semana de Examen** | Realizar una prueba escrita sobre redacción de hipótesis, cálculo de muestras, diseño de procesos de experimentación. |
+| S10 | **Implementación de Herramientas de Análisis I (Amplitude)** | Construir paneles de Embudos y tasas de conversión. |
+| S11 | **Implementación de Herramientas de Análisis II (GA4)** | Configurar el seguimiento de eventos y la conversión de objetivos. |
+| S12 | **Integración de Herramientas y Fiabilidad de los Datos** | Asegurar la coherencia del seguimiento, la corrección de las etiquetas UTM y la limpieza de los datos. |
+| S13 | **Análisis de Datos de Experimentos e Informe de Interpretación** | Aprender diagramas de visualización para medias, medianas, intervalos, conversiones de proporción. |
+| S14 | **Pruebas Multivariadas y Diseño de Experimentos Apilados** | Explorar MVT, pruebas A/B/n y consideraciones de diseño de experimentos continuos. |
+| S15 | **Habilidades de Comunicación e Informes Interdepartamentales** | Presentar tasas de conversión, modelos de crecimiento y recomendaciones en lenguaje de gestión. |
+| S16 | **Implementación de Simulación I** | Autoseleccionar el tema del experimento, escribir un caso de prueba completo y la documentación del diseño de verificación. |
+| S17 | **Implementación de Simulación II** | Proponer un informe de análisis de datos y una recomendación de estrategia de crecimiento. |
+| S18 | **Presentación de Resultados** | Realizar una presentación, una propuesta de resultados y una retroalimentación de pares. |
 ```
 
 ```md
-# Cross-Departmental Product Requirement Decomposition & Process Construction
+# Descomposición de Requisitos de Productos Interdepartamentales y Construcción de Procesos
 
-**Integrating Product Manager core skills with developer communication capabilities, strengthening PM × Design × Dev collaboration practical capabilities.**
-
----
-
-## Course Overview
-
-This course focuses on cross-departmental communication language, requirement decomposition techniques, process design logic, and MVP derivation methods, aimed at strengthening PM × Design × Dev collaboration capabilities in the AI era. Learners will learn to clearly decompose product requirements, draw product flow diagrams, and master effective collaboration with design and development teams.
+**Integrando las habilidades básicas del Gerente de Producto con las capacidades de comunicación del desarrollador, fortaleciendo las capacidades prácticas de colaboración PM × Diseño × Dev.**
 
 ---
 
-## Learning Schedule
+## Resumen del Curso
 
-- **Semester Length**: 18 weeks
-- **Recommended Credits**: 4 credits
-- **Estimated Time Investment**: 3-5 hours per week
-
-## Learning Objectives
-
-- Able to clearly decompose product requirements and draw product flow diagrams
-- Master MVP design and priority decision-making techniques
-- Able to effectively collaborate with design and development and translate requirement language
-- Familiar with common PM tools and product development process language (user story / flow / spec / C4 model)
-
-## Core Materials
-
-- Cagan, M. (2017). *Inspired: How to create tech products customers love* (2nd ed.). Wiley.
-- Patton, J., & Economy, P. (2014). *User story mapping: Discover the whole story, build the right product*. O'Reilly Media.
-- Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing great products with agile teams* (2nd ed.). O'Reilly Media.
-- Knapp, J., Zeratsky, J., & Kowitz, B. (2016). *Sprint: How to solve big problems and test new ideas in just five days*. Simon & Schuster.
-- Brown, S. (n.d.). *The C4 model for visualising software architecture*. https://c4model.com/
+Este curso se centra en el lenguaje de comunicación interdepartamental, las técnicas de descomposición de requisitos, la lógica de diseño de procesos y los métodos de derivación de MVP, con el objetivo de fortalecer las capacidades de colaboración PM × Diseño × Dev en la era de la IA. Los estudiantes aprenderán a descomponer claramente los requisitos del producto, a dibujar diagramas de flujo de productos y a dominar la colaboración efectiva con los equipos de diseño y desarrollo.
 
 ---
 
-Course Overview
+## Calendario de Aprendizaje
 
-| **Week** | **Topic Name**                           | **Task Focus / Progress Check**                       |
+- **Duración del Semestre**: 18 semanas
+- **Créditos Recomendados**: 4 créditos
+- **Inversión de Tiempo Estimada**: 3-5 horas por semana
+
+## Objetivos de Aprendizaje
+
+- Capaz de descomponer claramente los requisitos del producto y dibujar diagramas de flujo de productos
+- Dominar las técnicas de diseño de MVP y de toma de decisiones de prioridad
+- Capaz de colaborar eficazmente con el diseño y el desarrollo y traducir el lenguaje de los requisitos
+- Familiarizado con las herramientas comunes de PM y el lenguaje del proceso de desarrollo de productos (historia de usuario / flujo / especificación / modelo C4)
+
+## Materiales Centrales
+
+- Cagan, M. (2017). *Inspirado: Cómo crear productos tecnológicos que los clientes aman* (2ª ed.). Wiley.
+- Patton, J., & Economy, P. (2014). *Mapeo de historias de usuario: Descubre la historia completa, construye el producto correcto*. O'Reilly Media.
+- Gothelf, J., & Seiden, J. (2016). *Lean UX: Diseñando grandes productos con equipos ágiles* (2ª ed.). O'Reilly Media.
+- Knapp, J., Zeratsky, J., & Kowitz, B. (2016). *Sprint: Cómo resolver grandes problemas y probar nuevas ideas en solo cinco días*. Simon & Schuster.
+- Brown, S. (s.f.). *El modelo C4 para visualizar la arquitectura de software*. https://c4model.com/
+
+---
+
+Resumen del Curso
+
+| **Semana** | **Nombre del Tema**                           | **Foco de la Tarea / Verificación de Progreso**                       |
 | -------- | ---------------------------------------- | ----------------------------------------------------- |
-| W1       | Product Role & Collaboration Model       | Draw PM × Design × Dev collaboration blueprint        |
-| W2       | What are Product Requirements?           | Define requirements vs non-requirements, business vs technical language |
-| W3       | User Stories & Persona Design            | Establish user perspective and goal-oriented requirement language |
-| W4       | User Story Mapping Workshop              | Practice product storyline and MVP decomposition      |
-| W5       | Requirement Interview Techniques & Tools | Write interview scripts, derive key questions and requirements |
-| W6       | MVP Construction & Priority Logic        | Implement methods like RICE / MoSCoW / Kano           |
-| W7       | Flowchart Creation & System Logic Decomposition | Use Miro / Lucidchart to draw multi-role processes |
-| W8       | Cross-Departmental Requirement Collaboration Model Practice | Rehearse Dev × PM × Design consensus process |
-| W9       | Quiz Week                                | Requirement understanding & story map drawing (written + visual) |
-| W10      | Document Specification Writing (PRD / Spec) | Learn specification writing syntax and format      |
-| W11      | Product Cycle & Iteration Plan Design    | Derive development rhythm in Sprint units             |
-| W12      | From Goals to Metrics (OKR / KPI)        | Transform requirements into objectives and map to business metrics |
-| W13      | Product Requirement Evolution & Version Governance | Conduct requirement version control and history tracking |
-| W14      | Translation Technique with Technical Personnel | Practice requirement to technical language (C4 model overview) |
-| W15      | Project Simulation Drill I               | Practical requirement interview & flow construction (simulation project example) |
-| W16      | Project Simulation Drill II              | Specification writing & role consensus establishment  |
-| W17      | Final Presentation Preparation           | Create product concept, flow, requirement decomposition presentation |
-| W18      | Outcome Presentation                     | Complete presentation + peer review + self-assessment report |
+| S1       | Rol del Producto y Modelo de Colaboración       | Dibujar el plano de colaboración PM × Diseño × Dev        |
+| S2       | ¿Qué son los Requisitos del Producto?           | Definir requisitos vs no requisitos, lenguaje de negocio vs técnico |
+| S3       | Historias de Usuario y Diseño de Personas            | Establecer la perspectiva del usuario y el lenguaje de requisitos orientado a objetivos |
+| S4       | Taller de Mapeo de Historias de Usuario              | Practicar la trama del producto y la descomposición de MVP      |
+| S5       | Técnicas y Herramientas de Entrevista de Requisitos | Escribir guiones de entrevista, derivar preguntas y requisitos clave |
+| S6       | Construcción de MVP y Lógica de Prioridad        | Implementar métodos como RICE / MoSCoW / Kano           |
+| S7       | Creación de Diagramas de Flujo y Descomposición de la Lógica del Sistema | Usar Miro / Lucidchart para dibujar procesos multi-rol |
+| S8       | Práctica del Modelo de Colaboración de Requisitos Interdepartamentales | Ensayar el proceso de consenso Dev × PM × Diseño |
+| S9       | Semana de Examen                                | Comprensión de requisitos y dibujo de mapa de historias (escrito + visual) |
+| S10      | Redacción de Especificaciones de Documentos (PRD / Spec) | Aprender la sintaxis y el formato de la escritura de especificaciones      |
+| S11      | Diseño del Ciclo del Producto y del Plan de Iteración    | Derivar el ritmo de desarrollo en unidades de Sprint             |
+| S12      | De los Objetivos a las Métricas (OKR / KPI)        | Transformar requisitos en objetivos y mapearlos a métricas de negocio |
+| S13      | Evolución de los Requisitos del Producto y Gobernanza de Versiones | Realizar control de versiones de requisitos y seguimiento del historial |
+| S14      | Técnica de Traducción con Personal Técnico | Practicar la traducción de requisitos a lenguaje técnico (resumen del modelo C4) |
+| S15      | Simulacro de Proyecto I               | Entrevista práctica de requisitos y construcción de flujos (ejemplo de proyecto de simulación) |
+| S16      | Simulacro de Proyecto II              | Redacción de especificaciones y establecimiento de consenso de roles  |
+| S17      | Preparación de la Presentación Final           | Crear una presentación de concepto de producto, flujo, descomposición de requisitos |
+| S18      | Presentación de Resultados                     | Completar la presentación + revisión por pares + informe de autoevaluación |
 ```

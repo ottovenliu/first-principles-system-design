@@ -532,8 +532,10 @@ This 30-day learning journey is divided into **6 major phases**, each of which w
 
 ## Other Language Versions
 
-- [English (英文版)](../en-US/index.md) - In preparation
-- [日本語 (日文版)](../ja-JP/index.md) - In preparation
+- [繁體中文 (Traditional Chinese)](../zh-TW/index.md) - Completed ✓
+- [English (英文版)](../en-US/index.md) - Completed ✓
+- [日本語 (日文版)](../ja/index.md) - Completed ✓
+- [Español (Spanish)](../es/index.md) - Completed ✓
 
 ---
 

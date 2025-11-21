@@ -17,7 +17,7 @@ This series will guide you through the fundamental principles of system design, 
 - [English](./en-US/index.md) - Completed ✓
 - [繁體中文 (Traditional Chinese)](./zh-TW/index.md) - Completed ✓
 - [日本語 (Japanese)](./ja/index.md) - Completed ✓
-- [Español (Spanish)](./es/index.md) - Coming Soon
+- [Español (Spanish)](./es/index.md) - Completed ✓
 
 ---
 
@@ -34,27 +34,27 @@ This series will guide you through the fundamental principles of system design, 
 - [Day 8 | Systematizing UI Component Module Design: Introducing Design Systems and Atomic Architecture](./en/ironMan.draft.d8-0.md)
 - [Day 9 | High Concurrency and Rate Limiting Design: How to Avoid Resource Bottlenecks](./en/ironMan.draft.d9-0.md)
 - [Day 10 | The Philosophy of Caching Strategies: The Art of Balancing Time, Space, and Consistency](./en/ironMan.draft.d10-0.md)
-- [Day 11 | Database Design Philosophy: Requirement Analysis, Technology Selection, and Schema Design Strategies](./en/ironMan.draft.d11-0.md)
-- [Day 12 | Version Control Strategy (PR Review strategy) × Git Flow × Lint Introduction: Code Quality Control and Development Process Standardization](./en/ironMan.draft.d12-0.md)
-- [Day 13 | Cross-Team Collaboration Design: Technical Documents, OpenAPI, Shared Contracts: API Documentation and Team Collaboration Standard Establishment](./en/ironMan.draft.d13-0.md)
-- [Day 14 | Infrastructure as Code: Terraform Infrastructure Codification and Version Control](./en/ironMan.draft.d14-0.md)
-- [Day 15 | Fully Automated CI/CD Implementation - GitHub Actions × CodePipeline × CodeBuild: Continuous Integration and Deployment Pipeline and Task Segmentation Management](./en/ironMan.draft.d15-0.md)
-- [Day 16 | Dev / Staging / Prod Multi-Environment Governance and Architecture Strategy: AWS Multi-Environment Configuration Management and Deployment Strategy](./en/ironMan.draft.d16-0.md)
-- [Day 17 | Developer Experience (DX) Optimization: Internal Tools and Troubleshooting Design](./en/ironMan.draft.d17-0.md)
-- [Day 18 | System Acceptance Criteria Formulation: From Verification Logic to Functional Acceptance Manual: UAT Process Design and Quality Standard Formulation](./en/ironMan.draft.d18-0.md)
-- [Day 19 | UX Testing and Usability Validation: From Observing User Behavior to Correcting Design - Usability Testing and User Experience Optimization](./en/ironMan.draft.d19-0.md)
-- [Day 20 | Design Thinking for Testable Systems: A Complete Guide from Components to API Testing - A Complete Test Strategy from Unit Testing to Integration Testing](./en/ironMan.draft.d20-0.md)
-- [Day 21 | Performance Testing and Load Stress Testing - System Performance Benchmark Testing and Bottleneck Analysis](./en/ironMan.draft.d21-0.md)
-- [Day 22 | The Cornerstone of Modern Security "Zero Trust Architecture": A Mindset Shift from Border Defense to Identity Authentication - IAM Least Privilege and VPC Micro-segmentation](./en/ironMan.draft.d22-0.md)
-- [Day 23 | The Three Pillars of Observability: From Monitoring to Answering Unknown Questions - Integrated Practice of Logs, Metrics, Traces](./en/ironMan.draft.d23-0.md)
-- [Day 24 | Defining and Measuring Reliability: SRE Method and Error Budget Practice - Core Concepts of SLI, SLO, and Error Budget, Data-Driven Decisions to Balance Innovation Speed and System Stability](./en/ironMan.draft.d24-0.md)
-- [Day 25 | Proactive Resilience Verification: Chaos Engineering - AWS Fault Injection Simulator (FIS) in Action](./en/ironMan.draft.d25-0.md)
-- [Day 26 | Data-Driven Product Decisions: From A/B Testing to North Star Metrics - Building a Data Analysis Flywheel and Experimentation Framework](./en/ironMan.draft.d26-0.md)
-- [Day 27 | Managing Intangible Costs: Technical Debt Identification and Repayment Strategies - Introducing the Technical Debt Quadrant and the Boy Scout Rule](./en/ironMan.draft.d27-0.md)
-- [Day 28 | Data Governance and Privacy Protection: GDPR Compliance Design - Data Lifecycle Management and Privacy Protection Strategies](./en/ironMan.draft.d28-0.md)
-- [Day 29-1 | The Concerto of Architectural Evolution: Combining the Strangler Fig Pattern and BFF to Achieve an Elegant Transformation of a Monolithic System](./en/ironMan.draft.d29-1.md)
-- [Day 29-2 | Socrates Encounters System Architecture: An AI Augmentation Technique for System Designers — A Practical Framework for Integrating Philosophical Thinking into Cloud Design and Governance](./en/ironMan.draft.d29-2.md)
-- [Day 30 | Series Finale: A System Design Learning Path and Reflections for Future Engineers - Learning Resources, Learning Themes, and Insights from the Series](./en/ironMan.draft.d30-0.md)
+- [Day 11 | Database Design Philosophy: Requirement Analysis, Technology Selection, and Schema Design Strategies](./en-US/ironMan.draft.d11-0.md)
+- [Day 12 | Version Control Strategy (PR Review strategy) × Git Flow × Lint Introduction: Code Quality Control and Development Process Standardization](./en-US/ironMan.draft.d12-0.md)
+- [Day 13 | Cross-Team Collaboration Design: Technical Documents, OpenAPI, Shared Contracts: API Documentation and Team Collaboration Standard Establishment](./en-US/ironMan.draft.d13-0.md)
+- [Day 14 | Infrastructure as Code: Terraform Infrastructure Codification and Version Control](./en-US/ironMan.draft.d14-0.md)
+- [Day 15 | Fully Automated CI/CD Implementation - GitHub Actions × CodePipeline × CodeBuild: Continuous Integration and Deployment Pipeline and Task Segmentation Management](./en-US/ironMan.draft.d15-0.md)
+- [Day 16 | Dev / Staging / Prod Multi-Environment Governance and Architecture Strategy: AWS Multi-Environment Configuration Management and Deployment Strategy](./en-US/ironMan.draft.d16-0.md)
+- [Day 17 | Developer Experience (DX) Optimization: Internal Tools and Troubleshooting Design](./en-US/ironMan.draft.d17-0.md)
+- [Day 18 | System Acceptance Criteria Formulation: From Verification Logic to Functional Acceptance Manual: UAT Process Design and Quality Standard Formulation](./en-US/ironMan.draft.d18-0.md)
+- [Day 19 | UX Testing and Usability Validation: From Observing User Behavior to Correcting Design - Usability Testing and User Experience Optimization](./en-US/ironMan.draft.d19-0.md)
+- [Day 20 | Design Thinking for Testable Systems: A Complete Guide from Components to API Testing - A Complete Test Strategy from Unit Testing to Integration Testing](./en-US/ironMan.draft.d20-0.md)
+- [Day 21 | Performance Testing and Load Stress Testing - System Performance Benchmark Testing and Bottleneck Analysis](./en-US/ironMan.draft.d21-0.md)
+- [Day 22 | The Cornerstone of Modern Security "Zero Trust Architecture": A Mindset Shift from Border Defense to Identity Authentication - IAM Least Privilege and VPC Micro-segmentation](./en-US/ironMan.draft.d22-0.md)
+- [Day 23 | The Three Pillars of Observability: From Monitoring to Answering Unknown Questions - Integrated Practice of Logs, Metrics, Traces](./en-US/ironMan.draft.d23-0.md)
+- [Day 24 | Defining and Measuring Reliability: SRE Method and Error Budget Practice - Core Concepts of SLI, SLO, and Error Budget, Data-Driven Decisions to Balance Innovation Speed and System Stability](./en-US/ironMan.draft.d24-0.md)
+- [Day 25 | Proactive Resilience Verification: Chaos Engineering - AWS Fault Injection Simulator (FIS) in Action](./en-US/ironMan.draft.d25-0.md)
+- [Day 26 | Data-Driven Product Decisions: From A/B Testing to North Star Metrics - Building a Data Analysis Flywheel and Experimentation Framework](./en-US/ironMan.draft.d26-0.md)
+- [Day 27 | Managing Intangible Costs: Technical Debt Identification and Repayment Strategies - Introducing the Technical Debt Quadrant and the Boy Scout Rule](./en-US/ironMan.draft.d27-0.md)
+- [Day 28 | Data Governance and Privacy Protection: GDPR Compliance Design - Data Lifecycle Management and Privacy Protection Strategies](./en-US/ironMan.draft.d28-0.md)
+- [Day 29-1 | The Concerto of Architectural Evolution: Combining the Strangler Fig Pattern and BFF to Achieve an Elegant Transformation of a Monolithic System](./en-US/ironMan.draft.d29-1.md)
+- [Day 29-2 | Socrates Encounters System Architecture: An AI Augmentation Technique for System Designers — A Practical Framework for Integrating Philosophical Thinking into Cloud Design and Governance](./en-US/ironMan.draft.d29-2.md)
+- [Day 30 | Series Finale: A System Design Learning Path and Reflections for Future Engineers - Learning Resources, Learning Themes, and Insights from the Series](./en-US/ironMan.draft.d30-0.md)
 
 ---
 # 從第一性原理出發的系統設計
@@ -70,7 +70,7 @@ This series will guide you through the fundamental principles of system design, 
 - [繁體中文 (Traditional Chinese)](./zh-TW/index.md) - 已完成 ✓
 - [English](./en-US/index.md) - 已完成 ✓
 - [日本語 (Japanese)](./ja/index.md) - 已完成 ✓
-- [Español (Spanish)](./es/index.md) - 即將推出
+- [Español (Spanish)](./es/index.md) - 已完成 ✓
 
 ---
 
@@ -129,41 +129,41 @@ This series will guide you through the fundamental principles of system design, 
 - [日本語 (Japanese)](./ja/index.md) - 完了 ✓
 - [繁体字中国語 (Traditional Chinese)](./zh-TW/index.md) - 完了 ✓
 - [英語 (English)](./en-US/index.md) - 完了 ✓
-- [スペイン語 (Español)](./es/index.md) - 近日公開
+- [スペイン語 (Español)](./es/index.md) - 完了 ✓
 
 ---
 
 ## 追加リソース
 
-- [文献レビュー - 包括的なシステムエンジニアトレーニングプログラム](./ja-JP/ironMan.draft.LiteratureReview.md)
+- [文献レビュー - 包括的なシステムエンジニアトレーニングプログラム](./ja/ironMan.draft.LiteratureReview.md)
 
 ---
 
 ## 30日間の学習の旅
 
-- [Day 1 | シリーズ紹介とガイド：AWSを例に、ゼロから提供可能なシステム設計を構築する](./ja-JP/ironMan.draft.d1-0.md)
-- [Day 2-1 | 要件確認 × システム設計の出発点(1)：ビジネスロジックの転換](./ja-JP/ironMan.draft.d2-1.md)
-- [Day 2-2 | 要件確認 × システム設計の出発点(2)：ドメイン境界と基本要件の確認](./ja-JP/ironMan.draft.d2-2.md)
-- [Day 3 | 要件抽出方法論 - 抽象モデリング(Abstract Modeling)](./ja-JP/ironMan.draft.d3-0.md)
-- [Day 4 | DDDによるビジネスロジックの構築：ユースケースから集約設計まで](./ja-JP/ironMan.draft.d4-0.md)
-- [Day 5 | ユーザーのシステム操作コンテキスト - ユーザーストーリーとシナリオフロー](./ja-JP/ironMan.draft.d5-0.md)
-- [Day 6 | トレードオフにおけるコスト管理の技術：クラウドアーキテクチャのインスタンス選択](./ja-JP/ironMan.draft.d6-0.md)
-- [Day 7 | 最初のシステム設計図を描く：アーキテクチャの選定と設計](./ja-JP/ironMan.draft.d7-0.md)
-- [Day 8 | UIコンポーネントモジュール設計の体系化：デザインシステムとアトミックアーキテクチャの導入](./ja-JP/ironMan.draft.d8-0.md)
-- [Day 9 | 高並行性とレート制限の設計：リソースのボトルネックを回避する方法](./ja-JP/ironMan.draft.d9-0.md)
-- [Day 10 | キャッシュ戦略の哲学：時間、空間、一貫性のトレードオフの技術](./ja-JP/ironMan.draft.d10-0.md)
-- [Day 11 | データベース設計の哲学：要件分析、技術選定、スキーマ設計戦略](./ja-JP/ironMan.draft.d11-0.md)
-- [Day 12 | バージョン管理戦略(PRレビュー戦略) × Git Flow × Lint導入の考え方：コード品質管理と開発プロセスの標準化](./ja-JP/ironMan.draft.d12-0.md)
-- [Day 13 | チーム横断的なコラボレーション設計：技術文書、OpenAPI、共有コントラクト：APIドキュメント化とチームコラボレーション標準の確立](./ja-JP/ironMan.draft.d13-0.md)
-- [Day 14 | Infrastructure as Code：Terraformによるインフラのコード化とバージョン管理](./ja-JP/ironMan.draft.d14-0.md)
-- [Day 15 | CI/CDの完全自動化実装 - GitHub Actions × CodePipeline × CodeBuild：継続的インテグレーションとデプロイメントパイプライン、タスク分割管理](./ja-JP/ironMan.draft.d15-0.md)
-- [Day 16 | Dev / Staging / Prod マルチ環境ガバナンスとアーキテクチャ戦略：AWSマルチ環境構成管理とデプロイ戦略](./ja-JP/ironMan.draft.d16-0.md)
-- [Day 17 | 開発者体験（DX）の最適化：内部ツールとトラブルシューティング設計](./ja-JP/ironMan.draft.d17-0.md)
-- [Day 18 | システム驗收基準の策定：検証ロジックから機能驗收マニュアルまで：UATプロセス設計と品質基準の策定](./ja-JP/ironMan.draft.d18-0.md)
-- [Day 19 | UXテストとユーザビリティ検証：ユーザー行動の観察から設計修正まで - ユーザビリティテストとユーザー体験の最適化](./ja-JP/ironMan.draft.d19-0.md)
-- [Day 20 | テスト可能なシステムの設計思考：コンポーネントからAPIテストまでの完全ガイド - ユニットテストから統合テストまでの完全なテスト戦略](./ja-JP/ironMan.draft.d20-0.md)
-- [Day 21 | パフォーマンステストと負荷ストレステスト - システムパフォーマンスのベンチマークテストとボトルネック分析](./ja-JP/ironMan.draft.d21-0.md)
-- [Day 22 | 現代セキュリティの礎「ゼロトラストアーキテクチャ」：境界防御からアイデンティティ認証への思考転換 - IAM最小権限とVPCマイクロセグメンテーション](./ja-JP/ironMan.draft.d22-0.md)
+- [Day 1 | シリーズ紹介とガイド：AWSを例に、ゼロから提供可能なシステム設計を構築する](./ja/ironMan.draft.d1-0.md)
+- [Day 2-1 | 要件確認 × システム設計の出発点(1)：ビジネスロジックの転換](./ja/ironMan.draft.d2-1.md)
+- [Day 2-2 | 要件確認 × システム設計の出発点(2)：ドメイン境界と基本要件の確認](./ja/ironMan.draft.d2-2.md)
+- [Day 3 | 要件抽出方法論 - 抽象モデリング(Abstract Modeling)](./ja/ironMan.draft.d3-0.md)
+- [Day 4 | DDDによるビジネスロジックの構築：ユースケースから集約設計まで](./ja/ironMan.draft.d4-0.md)
+- [Day 5 | ユーザーのシステム操作コンテキスト - ユーザーストーリーとシナリオフロー](./ja/ironMan.draft.d5-0.md)
+- [Day 6 | トレードオフにおけるコスト管理の技術：クラウドアーキテクチャのインスタンス選択](./ja/ironMan.draft.d6-0.md)
+- [Day 7 | 最初のシステム設計図を描く：アーキテクチャの選定と設計](./ja/ironMan.draft.d7-0.md)
+- [Day 8 | UIコンポーネントモジュール設計の体系化：デザインシステムとアトミックアーキテクチャの導入](./ja/ironMan.draft.d8-0.md)
+- [Day 9 | 高並行性とレート制限の設計：リソースのボトルネックを回避する方法](./ja/ironMan.draft.d9-0.md)
+- [Day 10 | キャッシュ戦略の哲学：時間、空間、一貫性のトレードオフの技術](./ja/ironMan.draft.d10-0.md)
+- [Day 11 | データベース設計の哲学：要件分析、技術選定、スキーマ設計戦略](./ja/ironMan.draft.d11-0.md)
+- [Day 12 | バージョン管理戦略(PRレビュー戦略) × Git Flow × Lint導入の考え方：コード品質管理と開発プロセスの標準化](./ja/ironMan.draft.d12-0.md)
+- [Day 13 | チーム横断的なコラボレーション設計：技術文書、OpenAPI、共有コントラクト：APIドキュメント化とチームコラボレーション標準の確立](./ja/ironMan.draft.d13-0.md)
+- [Day 14 | Infrastructure as Code：Terraformによるインフラのコード化とバージョン管理](./ja/ironMan.draft.d14-0.md)
+- [Day 15 | CI/CDの完全自動化実装 - GitHub Actions × CodePipeline × CodeBuild：継続的インテグレーションとデプロイメントパイプライン、タスク分割管理](./ja/ironMan.draft.d15-0.md)
+- [Day 16 | Dev / Staging / Prod マルチ環境ガバナンスとアーキテクチャ戦略：AWSマルチ環境構成管理とデプロイ戦略](./ja/ironMan.draft.d16-0.md)
+- [Day 17 | 開発者体験（DX）の最適化：内部ツールとトラブルシューティング設計](./ja/ironMan.draft.d17-0.md)
+- [Day 18 | システム驗收基準の策定：検証ロジックから機能驗收マニュアルまで：UATプロセス設計と品質基準の策定](./ja/ironMan.draft.d18-0.md)
+- [Day 19 | UXテストとユーザビリティ検証：ユーザー行動の観察から設計修正まで - ユーザビリティテストとユーザー体験の最適化](./ja/ironMan.draft.d19-0.md)
+- [Day 20 | テスト可能なシステムの設計思考：コンポーネントからAPIテストまでの完全ガイド - ユニットテストから統合テストまでの完全なテスト戦略](./ja/ironMan.draft.d20-0.md)
+- [Day 21 | パフォーマンステストと負荷ストレステスト - システムパフォーマンスのベンチマークテストとボトルネック分析](./ja/ironMan.draft.d21-0.md)
+- [Day 22 | 現代セキュリティの礎「ゼロトラストアーキテクチャ」：境界防御からアイデンティティ認証への思考転換 - IAM最小権限とVPCマイクロセグメンテーション](./ja/ironMan.draft.d22-0.md)
 - [Day 23 | オブザーバビリティの三本柱：監視から未知の問いに答えるまで - ログ、メトリクス、トレースの統合実践](./ja-JP/ironMan.draft.d23-0.md)
 - [Day 24 | 信頼性の定義と測定：SRE手法とエラーバジェットの実践 - SLI、SLO、エラーバジェットの核心概念、イノベーション速度とシステム安定性のバランスを取るためのデータ駆動型意思決定](./ja-JP/ironMan.draft.d24-0.md)
 - [Day 25 | プロアクティブなレジリエンス検証：カオスエンジニアリング - AWS Fault Injection Simulator (FIS)の実践](./ja-JP/ironMan.draft.d25-0.md)

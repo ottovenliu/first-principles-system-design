@@ -25,8 +25,8 @@ A complete 30-day journey through system design, from philosophical thinking to 
 
 - [Traditional Chinese](./first-principle/zh-TW/index.md) - Completed ✓
 - [English](./first-principle/en-US/index.md) - Completed ✓
-- [Japanese](./first-principle/ja-JP/index.md) - Completed ✓
-- [Español (Spanish)](./first-principle/es/index.md) - Coming Soon
+- [Japanese](./first-principle/ja/index.md) - Completed ✓
+- [Español (Spanish)](./first-principle/es/index.md) - Completed ✓
 
 ---
 
@@ -130,8 +130,8 @@ If you find any issues or have suggestions for improvement, feel free to:
 
 - [繁體中文 (Traditional Chinese)](./first-principle/zh-TW/index.md) - 已完成 ✓
 - [English](./first-principle/en-US/index.md) - 已完成 ✓
-- [日本語 (Japanese)](./first-principle/ja-JP/index.md) - 已完成 ✓
-- [Español (Spanish)](./first-principle/es/index.md) - 即將推出
+- [日本語 (Japanese)](./first-principle/ja/index.md) - 已完成 ✓
+- [Español (Spanish)](./first-principle/es/index.md) - 已完成 ✓
 
 
 ---
@@ -233,8 +233,8 @@ If you find any issues or have suggestions for improvement, feel free to:
 
 - [繁体字中国語 (Traditional Chinese)](./first-principle/zh-TW/index.md) -完了 ✓
 - [英語 (English)](./first-principle/en-US/index.md) - 完了 ✓
-- [日本語 (Japanese)](./first-principle/ja-JP/index.md) -完了 ✓
-- [スペイン語 (Español)](./first-principle/es/index.md) - 近日公開
+- [日本語 (Japanese)](./first-principle/ja/index.md) -完了 ✓
+- [スペイン語 (Español)](./first-principle/es/index.md) - 完了 ✓
 
 ---
 
@@ -306,3 +306,104 @@ Day 1 から Day 30 の順で学習し、体系的な知識を身につけます
 
 **最終更新日 | Last Updated:** 2025-11-18
 **メンテナー | Maintainer:** otto
+---
+# Libros y Recursos de Aprendizaje
+
+> Una Ruta de Aprendizaje Completa para el Diseño de Sistemas desde los Primeros Principios
+
+---
+
+## Temas de Dominio
+
+### [Diseño de Sistemas desde los Primeros Principios](./first-principle/index.md)
+
+Un viaje completo de 30 días a través del diseño de sistemas, desde el pensamiento filosófico hasta la práctica en producción, cubriendo temas centrales como el Diseño Dirigido por el Dominio, la arquitectura en la nube y la cultura DevOps.
+
+**Temas Clave:**
+
+- Fundamentos Filosóficos y Pensamiento de Primeros Principios
+- Diseño Dirigido por el Dominio (DDD)
+- Arquitectura Nativa de la Nube (con ejemplos de AWS)
+- CI/CD e Infraestructura como Código
+- Arquitectura de Seguridad de Confianza Cero
+- Prácticas de Observabilidad y SRE
+- Estrategias de Pruebas e Ingeniería del Caos
+- Decisiones Impulsadas por Datos y Evolución del Sistema
+
+**Idiomas Disponibles:**
+
+- [Chino Tradicional](./first-principle/zh-TW/index.md) - Completado ✓
+- [Inglés](./first-principle/en-US/index.md) - Completado ✓
+- [Japonés](./first-principle/ja/index.md) - Completado ✓
+- [Español](./first-principle/es/index.md) - Completado ✓
+
+---
+
+### Ruta de Aprendizaje Recomendada
+
+#### Ruta para Principiantes
+
+1.  Comenzar con los Primeros Principios (Día 1-7)
+2.  Entender los conceptos básicos del Diseño Dirigido por el Dominio (Día 2-4)
+3.  Aprender conceptos fundamentales de infraestructura (Día 6-7)
+
+#### Ruta para Ingenieros Avanzados
+
+1.  Profundizar en el diseño de la arquitectura técnica (Día 8-16)
+2.  Dominar las pruebas y el aseguramiento de la calidad (Día 17-21)
+3.  Aprender las mejores prácticas para entornos de producción (Día 22-25)
+
+#### Ruta para Arquitectos
+
+1.  Leer la serie completa (Día 1-30)
+2.  Centrarse en las decisiones y compensaciones arquitectónicas (Día 6, 7, 14-16)
+3.  Profundizar en la comprensión de las estrategias de evolución del sistema (Día 27, 29)
+
+---
+
+### Cómo Usar Este Recurso
+
+#### Lectura Secuencial
+
+Sigue la serie desde el Día 1 hasta el Día 30 para una comprensión sistemática.
+
+#### Lectura por Temas
+
+Elige temas específicos según tus necesidades:
+
+- **Diseño de Arquitectura**: Día 6, 7, 8, 14, 16
+- **Seguridad y Confiabilidad**: Día 22, 23, 24, 25
+- **DevOps y CI/CD**: Día 12, 14, 15, 16
+- **Pruebas y Calidad**: Día 17, 18, 19, 20, 21
+- **Datos y Optimización**: Día 26, 27, 28
+
+#### Orientado a la Práctica
+
+Aprende haciendo, aplicando los conceptos a un proyecto real.
+
+---
+
+## Más Temas de Dominio
+
+**Próximamente:**
+
+- Práctica Profunda de la Arquitectura de Microservicios
+- Patrones de Diseño para Sistemas Distribuidos
+- Orquestación de Contenedores y Kubernetes
+- Diseño de Arquitectura de Sistemas Front-end
+- Diseño de Aplicaciones Intensivas en Datos
+
+---
+
+## 💡 Contribuciones y Comentarios
+
+Si encuentras algún problema o tienes sugerencias de mejora, no dudes en:
+
+- Enviar un Issue
+- Enviar un Pull Request
+- Compartir tu experiencia de aprendizaje
+
+---
+
+**Última Actualización:** 2025-11-18
+**Mantenedor:** otto
